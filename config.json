@@ -1,12 +1,13 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
+    "name": "Nook Harquail",
+    "owner": "Nook Harquail",
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",

@@ -3,8 +3,25 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   margin: 0; padding: 0; border: 0;
 }
 
+#navbar {
+    background-color: #000;
+    z-index:20;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+#navbar-spacer{
+    height: 80px;
+}
+
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Special Elite', serif;
   font-size: 21px;
   line-height: 1.52;
   background-color: #f8f8f8;
@@ -111,14 +128,14 @@ hr {
 
 .header .description {
   font-size: 1.2em;
-  font-style: italic;
+/*  font-style: italic;*/
   text-align: center;
   margin-top: -0.3em;
 }
 
 body.article-detail > header h1 {
   font-size: 2.5em;
-  font-style: italic;
+/*  font-style: italic;*/
   font-weight: 400;
   margin-bottom: -0.2em;
 }
@@ -162,7 +179,7 @@ footer .about {
 footer .copy {
   text-align: center;
   font-size: 0.7em;
-  font-style: italic;
+/*  font-style: italic;*/
   margin-top: 1em;
 }
 
