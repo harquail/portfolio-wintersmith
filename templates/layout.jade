@@ -1,8 +1,8 @@
 doctype html
 block vars
   - var bodyclass = null;
-  - var menu = { 'home': '/home', 'about': '/about', 'resume': '/resume', 'portfolio': '/portfolio' };
-  block link
+  - var menu = { 'home': '/', 'about': '/about', 'resume': '/resume', 'portfolio': '/portfolio' };
+block link
     -var selected = 'home'; //default
 html(lang='en')
   head
@@ -16,13 +16,20 @@ html(lang='en')
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Special+Elite')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
-      link(rel='stylesheet', href='/css/main.css')
+      link(rel='stylesheet', href='/css/main.scss.css')
       | !{ livereloadScript }
   body(class=bodyclass)
     div#navbar
       div.buttons
-        div#home
-        div#portfolio-link-
+          each val, key in menu
+            if key === selected 
+              a(href=menu[key])
+                span.active
+                  span(class='nav-button-'+key)
+            else
+              a(href=menu[key])
+                span(class='nav-button-'+key)
+    //displaces content down by height of nav bar
     div#navbar-spacer    
     header.header
       div.content-wrap
@@ -34,7 +41,7 @@ html(lang='en')
     div#content
       div.content-wrap
         block content
-          h2 Welcome to zombocom!
+    //-       h2 Welcome to zombocom!
     footer
       div.content-wrap
         block footer

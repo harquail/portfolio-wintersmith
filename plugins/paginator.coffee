@@ -60,7 +60,7 @@ module.exports = (env, callback) ->
 
     # find all articles
     articles = getArticles contents
-
+    
     # populate pages
     numPages = Math.ceil articles.length / options.perPage
     pages = []

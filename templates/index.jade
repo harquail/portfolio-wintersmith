@@ -1,5 +1,6 @@
 extends layout
-
+block link
+    -var selected = 'home'; //default
 block content
   include author
   each article in articles
