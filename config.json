@@ -26,6 +26,14 @@
     "perPage": 3
   },
   "node-sass": {
-         "minify": false
-       }
+    "minify": false
+  },
+  "ignore": [
+    "**/*.psb",
+    "**/*.psd",
+    "**/*.ai",
+    "**/*indd",
+    "**/.DS_Store"
+  ],
+  "output":"harquail.com"
 }
