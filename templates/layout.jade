@@ -17,35 +17,39 @@ html(lang='en')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Special+Elite')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
       link(rel='stylesheet', href='/css/main.css')
+      script(type='text/javascript', src='/js/jquery.min.js')
+      script(type='text/javascript', src='/js/jquery.smoothState.js')
+      script(type='text/javascript', src='/js/smoothen.js')
       | !{ livereloadScript }
-  body(class=bodyclass)
-    div#navbar
-      div.buttons
-          each val, key in menu
-            if key === selected 
-              a(href=menu[key])
-                span.active
+  div(id='main')
+    body(class=bodyclass)
+      div#navbar
+        div.buttons
+            each val, key in menu
+              if key === selected 
+                a(href=menu[key])
+                  span.active
+                    span(class='nav-button-'+key)
+              else
+                a(href=menu[key])
                   span(class='nav-button-'+key)
-            else
-              a(href=menu[key])
-                span(class='nav-button-'+key)
-    //displaces content down by height of nav bar
-    div#navbar-spacer    
-    header.header
-      div.content-wrap
-        block header
-          div.logo
-            //- h1
-            //-   a(href=locals.url)= locals.name
-            //- p.description= locals.description
-    div#content
-      div.content-wrap
-        block content
-    //-       h2 Welcome to zombocom!
-    footer
-      div.content-wrap
-        block footer
-          //- section.about
-          //-   !=contents['about.md'].html
-          section.copy
-            p copyright #{ locals.owner } 2009 &mdash; #{ new Date().getFullYear() }, all rights reserved
+      //displaces content down by height of nav bar
+      div#navbar-spacer    
+      header.header
+        div.content-wrap
+          block header
+            div.logo
+              //- h1
+              //-   a(href=locals.url)= locals.name
+              //- p.description= locals.description
+      div#content
+        div.content-wrap
+          block content
+      //-       h2 Welcome to zombocom!
+      footer
+        div.content-wrap
+          block footer
+            //- section.about
+            //-   !=contents['about.md'].html
+            section.copy
+              p copyright #{ locals.owner } 2009 &mdash; #{ new Date().getFullYear() }, all rights reserved
