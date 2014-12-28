@@ -1,30 +1,34 @@
 extends layout
 block link
-    -var selected = 'home'; //default
+    -var selected = 'portfolio'; //default
+    -var tags = env.helpers.getAllTags();
+    -var selectedTag = tagName
 block content
-  include author
-  each article in articles
-    article.article.intro
-      header
-        p.date
-          span= moment.utc(article.date).format('DD. MMMM YYYY')
-        h2
-          a(href=article.url)= article.title
-      section.content
-        if article.intro.length > 0
-          | !{ typogr(article.intro).typogrify() }
-        if article.hasMore
-          p.more
-            a(href=article.url) more
-
-//- block prepend footer
-//-   div.nav
-//-     if prevPage
-//-       a(href=prevPage.url) « Newer
-//-     else
-//-       a(href='/archive.html') « Archives
-//-     if nextPage
-//-       a(href=nextPage.url) Next page »
-
-
-
+  span.tag-nav
+      if !selectedTag
+        span.selected
+          a(href='/portfolio')="all"
+      else
+        a(href='/portfolio')="all"
+      each tag in tags
+        if tag === selectedTag
+          span.selected
+            a(href=env.helpers.getTagHome(tag).url)= tag
+        else
+          a(href=env.helpers.getTagHome(tag).url)= tag
+    each article in articles
+          div.thumbnail-portfolio
+            //- strip html from hover text
+            a(href=article.url title = article.intro.replace(/(<([^>]+)>)/ig,""))
+              //- thumbnail text
+              img(src=article.url + 'thumbnail.jpg')
+              br
+              div.text !{article.title}    
+    div#portfolio-bottom-nav
+      //- div.pixel-spacer
+      if nextPage
+        div.next-link
+          a(href=nextPage.url) Next »
+       if prevPage
+         div.previous-link
+          a(href=prevPage.url) « Previous             

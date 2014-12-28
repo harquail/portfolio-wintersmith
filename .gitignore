@@ -1,3 +1,6 @@
 build/
 **/ship.conf
 harquail.com/
+node_modules/
+**/.DS_Store
+.sass-cache/
