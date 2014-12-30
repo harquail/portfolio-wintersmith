@@ -26,7 +26,8 @@
   "paginator": {
     "articles": "portfolio",
     "perPage": 12,
-    "first": "/portfolio/index.html"
+    "first": "/portfolio/index.html",
+    "filename": "portfolio/%d/index.html"
   },
   "tag":{
     "filename": "/portfolio/%s/%d/index.html"

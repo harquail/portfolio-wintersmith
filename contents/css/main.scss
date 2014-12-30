@@ -1,3 +1,22 @@
+//testing
+/*
+ * CSS Animations
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene .scene_element {
+  animation-duration: .75s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.m-scene .scene_element--fadeinright {
+  animation-name: fadeInRight;
+}
+
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+}
+
 $compressed: true;
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   margin: 0; padding: 0; border: 0;
@@ -97,11 +116,16 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
     font-size:15px;
 }
 
-.tag-nav a{
+#tag-nav {
+  position:relative;
+  top: -17px;
+}
+
+#tag-nav a{
     margin: 5px;
 
 }
-.tag-nav .selected a{
+#tag-nav .selected a{
     text-decoration: underline;
     margin: 5px;
 }
@@ -295,7 +319,7 @@ footer .copy, footer .copy a {
 /* article */
 
 .article {
-  margin: 3em 0 4em;
+  margin: 0em 0 1em;
 }
 
 .article header {

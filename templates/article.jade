@@ -1,14 +1,17 @@
 
 extends layout
 
-//- block append vars
-  //- - bodyclass = 'article-detail'
+block append vars
+  - bodyclass = 'article-detail'
 block link
   -var selected = 'portfolio';
+block prepend title
+  | #{ page.title + " - "}
  
 block content
+  h1= page.title
   article.article
     section.content!= typogr(page.html).typogrify()
-     a(href=contents.index.url) « Portfolio
+    a(href=contents.index.url) « Portfolio
 
 
