@@ -100,9 +100,11 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 
 .thumbnail-portfolio{
     width:150px;
+    height:190px;
     float: left;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 10px;
+//    background-color:red;
 }
 
 .thumbnail-portfolio img{
@@ -140,7 +142,15 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
     height:25px;
 }
 
+#portfolio-bottom-nav{
+/*    top:155px;*/
+    height:auto;
+    position:relative;
+    top:10px;
+}
+
 .previous-link{
+    height:0px;
     width:intrinsic;
 }
 
@@ -163,11 +173,8 @@ body {
   margin: 0 auto;
 }
 
-body, a {
-  color: #171717;
-}
-
 a {
+    color: #171717;
     text-decoration:none;
 
 }
@@ -179,6 +186,7 @@ a:hover {
 
 p {
   margin-bottom: 1.52em;
+  color: #666;
 }
 
 pre {

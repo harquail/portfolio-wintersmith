@@ -1,14 +1,14 @@
 ---
 title: DALI Animation
-author: the-wintersmith
-date: 2013-04-30
+author: nook
+date: 2014-12
 template: article.jade
 tags: design, animation
 ---
 
-##waiting for final version
+This is a short clip from a longer animation about [DALI Lab](http://dali.dartmouth.edu).  Created for an exhibit about the Lab for Baker Berry Library. 
 
 ---
-<div class="youtube" id="Ab2Djf1ERVw"></div><br>
+<div class="youtube" id="tFHioC-H2kg"></div><br>
   
 ---

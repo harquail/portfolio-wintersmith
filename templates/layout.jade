@@ -1,7 +1,7 @@
 doctype html
 block vars
   - var bodyclass = null;
-  - var menu = { 'home': '/', 'about': '/about', 'resume': '/resume', 'portfolio': '/portfolio' };
+  - var menu = { 'home': '/', 'about': '/about/', 'resume': '/resume/', 'portfolio': '/portfolio/' };
 block link
     -var selected = 'home'; //default
 html(lang='en')
@@ -17,11 +17,17 @@ html(lang='en')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Special+Elite')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
       link(rel='stylesheet', href='/css/main.css')
-      link(rel='stylesheet', href='/css/animate.css')  
+      link(rel='stylesheet', href='/css/animate.css')
+      link(rel='stylesheet', href='/js/documentViewer/css/style.css')  
       script(type='text/javascript', src='/js/jquery.min.js')
       script(type='text/javascript', src='/js/jquery.smoothState.js')
       script(type='text/javascript', src='/js/smoothen.js')
-      | !{ livereloadScript }
+      script(type='text/javascript', src='/js/documentViewer/libs/yepnope.1.5.3-min.js')
+      script(type='text/javascript', src='/js/documentViewer/ttw-document-viewer.min.js')
+      script(type='text/javascript', src='/js/documentViewer/libs/pdfjs/pdf.js')
+      script(type='text/javascript', src='/js/documentViewer/libs/google-code-prettify/prettify.js')
+      script(type='text/javascript', src='/js/documentViewer/libs/flowplayer/flowplayer-3.2.6.min.js')
+     | !{ livereloadScript }
   div(id='main')
     body(class=bodyclass)
       div#navbar
@@ -49,6 +55,7 @@ html(lang='en')
             h2 Welcome to zombocom!
       footer
         script(type='text/javascript', src='/js/youtubeEmbed.js')
+        script(type='text/javascript', src='/js/pdfEmbed.js')
         div.content-wrap
           block footer
             //- section.about

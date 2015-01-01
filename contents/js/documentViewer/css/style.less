@@ -1,0 +1,403 @@
+/*********************************
+    Document Viewer Markup
+*********************************/
+.document-viewer-wrapper{
+    display:inline-block;
+    margin:20px;
+    float:right;
+    position:relative;
+    border-radius:5px;
+}
+
+.document-viewer-outer{
+    position:relative;
+    background:#fff;
+    border:1px solid #dadada;
+    box-shadow:0 0 4px rgba(0, 0, 0, .07);
+}
+
+.document-viewer{
+    padding:10px 20px;
+
+    pre, pre.prettyprint{
+        padding:none;
+        border:none;
+        font-size:11px;
+        line-height:21px;
+        
+    }
+}
+
+.document-viewer-empty-text{
+    padding:20px 0;
+    text-align:center;
+}
+
+.dv-sheet{
+    border:1px solid #dadada;
+    border-top:none;
+    background:#fff;
+    height:2px;
+}
+
+.dv-sheet.sheet1{
+    margin:0 2px;
+}
+
+.dv-sheet.sheet2{
+    margin:0 6px;
+}
+
+.dv-error{
+    padding:10px;
+    padding:10px;
+    text-align:center;
+    margin:20px auto;
+    font-size:14px;
+    color:#fff;
+    background: #D87777;
+    background: -moz-linear-gradient(top, rgba(216, 119, 119, 1) 1%, rgba(217, 87, 87, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(216, 119, 119, 1)), color-stop(100%, rgba(217, 87, 87, 1)));
+    background: -webkit-linear-gradient(top, rgba(216, 119, 119, 1) 1%, rgba(217, 87, 87, 1) 100%);
+    background: -o-linear-gradient(top, rgba(216, 119, 119, 1) 1%, rgba(217, 87, 87, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(216, 119, 119, 1) 1%, rgba(217, 87, 87, 1) 100%);
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d87777', endColorstr = '#d95757', GradientType = 0)";
+    background: linear-gradient(top, rgba(216, 119, 119, 1) 1%, rgba(217, 87, 87, 1) 100%);
+    border: 1px solid #B72224;
+
+    span{
+        display: block;
+        margin-top: 5px;
+        color: #EEE;
+        font-size: 11px;
+    }
+}
+
+.dv-loading{
+    height:32px;
+    width:100%;
+    background:transparent url(../images/loading.gif) no-repeat center center;
+}
+
+/** Drop Shadow **/
+.dv-sheet.sheet2:before,
+.dv-sheet.sheet2:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+
+/* Lifted corners */
+.dv-sheet.sheet2 {
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+
+.dv-sheet.sheet2:before,
+.dv-sheet.sheet2:after {
+    bottom:15px;
+    left:10px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.2);
+    box-shadow:0 15px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    transform:rotate(-3deg);
+}
+
+.dv-sheet.sheet2:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:rotate(3deg);
+    -moz-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    transform:rotate(3deg);
+}
+
+
+
+/*********************************
+    Scrollbars
+*********************************/
+.scrollable {
+    clear: both;
+}
+
+.scrollable .viewport {
+    overflow: hidden;
+    position: relative;
+}
+
+.scrollable .scroll-content {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.scrollable .thumb .end,
+.scrollable .thumb {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.scrollable .scrollbar {
+    float: right;
+    width: 6px;
+    position:absolute;
+    right:2px;
+    top:0;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.scrollable:hover .scrollbar{
+    opacity:1;
+}
+
+.scrollable .track {
+    background-color: rgba(0, 0, 0, .2);
+    height: 100%;
+    width: 6px;
+    position: relative;
+    padding: 0 1px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.scrollable .thumb {
+    height: 20px;
+    width: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -o-border-radius:3px;
+}
+
+.scrollable .thumb .end {
+    overflow: hidden;
+    height: 5px;
+    width: 6px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.scrollable .disable {
+    display: none;
+}
+
+/*********************************
+    Audio/Video Player
+*********************************/
+
+.ttw-video-player {
+    margin: 0 auto;
+    padding:10px 0;
+    position: relative;
+}
+
+.ttw-video-player .player {
+    width: 554px;
+    height: 33px;
+
+}
+
+/* This is where the video shows up */
+.ttw-video-player .jPlayer-container {
+    background: #000;
+    width: 554px;
+    height: 312px;
+}
+
+/* THis is the video poster */
+.ttw-video-player .jPlayer-container img{
+    display:none !important;
+}
+
+.ttw-video-player .player-controls {
+    background: transparent;
+    height: 36px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    position: relative;
+    margin-top:10px;
+}
+
+.ttw-video-player .button {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.ttw-video-player .play, .ttw-video-player .pause{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.ttw-video-player .play {
+    background: transparent url(../images/av-player/play.png) no-repeat center center scroll;
+}
+
+.ttw-video-player .pause {
+    display: none;
+    background: transparent url(../images/av-player/pause.png) no-repeat center center scroll;
+}
+
+.ttw-video-player .progress-wrapper {
+    top:0;
+    margin:0 106px 0 25px;
+    width:auto;
+    padding: 0 10px;
+    position:relative;
+    top:9px;
+}
+
+.ttw-video-player .progress-bg, .ttw-video-player .progress, .ttw-video-player .elapsed,
+.ttw-video-player .volume, .ttw-video-player .volume-value{
+    height:5px;
+}
+
+.ttw-video-player .volume-value,  .ttw-video-player .elapsed{
+    background: #35c0fa;
+    box-shadow:inset 0 1px 0 rgba(255, 255, 255, .7);
+}
+
+.ttw-video-player .progress-bg, .ttw-video-player .volume {
+    box-shadow:inset 0 2px 2px rgba(0, 0, 0, .1);
+    border:1px solid #555;
+    background:#888;
+    margin: 9px 0;
+}
+
+.ttw-video-player .progress-bg {
+    width: 100%;
+}
+
+.ttw-video-player .progress {
+    cursor: pointer;
+    width:10%;
+}
+
+.ttw-video-player .volume-wrapper {
+    position:absolute;
+    right:0;
+    top:0;
+    width: 61px;
+    padding: 0 10px 0 35px;
+    background: transparent url(../images/av-player/volume-icon.png) no-repeat 10px center scroll;
+}
+
+.ttw-video-player .volume {
+    cursor: pointer;
+}
+
+.ttw-video-player .unused-controls {
+    display: none !important;
+}
+
+/* http://perishablepress.com/press/2009/12/06/new-clearfix-hack */
+.ttw-video-player .player:after, .ttw-video-player .progress-bg:after  {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/*********************************
+   Document Viewer - Image File
+*********************************/
+
+.dv-image{
+    width:inherit;
+    padding:10px 0;
+}
+
+/*********************************
+   Document Viewer - PDF File
+*********************************/
+.pdf .document-viewer{
+    padding:40px 10px 10px 10px;
+}
+.pdf-menu{
+    background: rgb(249,249,249);
+    height:30px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+    box-shadow:0 2px 2px rgba(0, 0, 0, .02);
+    overflow:hidden;
+
+    > div{
+        float:left;
+        font-size:12px;
+        text-shadow:0 1px 0 #fff;
+        color:#666;
+        line-height:30px;
+        padding:0 10px;
+        border-right:1px solid rgba(0, 0, 0, .1);
+        border-left:1px solid rgba(255, 255, 255, .8);
+        cursor:pointer;
+
+        &:hover{
+            background-color:rgba(255, 255, 255, .4);
+        }
+
+        .prev-page{
+
+        }
+
+        &:first-child{
+            border-left:none;
+        }
+
+        &:last-child{
+            float:right;
+            border:none;
+
+            input, input:focus{
+                width:40px;
+                border: 1px solid #cecece;
+                outline:none;
+                box-shadow: inset 0 1px 2px rgba(0, 0, 0, .08);
+                margin-bottom:2px;
+            }
+        }
+    }
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.clear{
+    clear:both;
+    float:left;
+}
+
+
+

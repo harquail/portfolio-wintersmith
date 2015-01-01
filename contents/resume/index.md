@@ -4,8 +4,11 @@ author: the-wintersmith
 date: 2012-10-01 15:00
 template: resume.jade
 ---
+#Resumé
+<div class="pdfEmbed" id="resume"></div>
 
-I've had jobs!
+&nbsp;  
+Download a pdf version of my resume [here](resume.pdf).
 
 
 

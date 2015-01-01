@@ -1,10 +1,12 @@
 ---
-title: Metadata Games
+title: British Library Tag
 author: the-wintersmith
 date: 2013-04-30
 template: article.jade
 tags: game, web, design
 ---
+
+<div class="pdfEmbed" id="resume" width="200px"></div>
 
 Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available -- run `wintersmith new --help` to list them.
 
