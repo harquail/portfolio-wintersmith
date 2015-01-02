@@ -6,7 +6,7 @@ template: article.jade
 tags: animation, design 
 ---
 
-Kinetic typography  and animation of  Silver, by Walter de la Mare.  Photographs of magazines and found art create the collage-like aesthetic.
+Kinetic typography  and animation of  Silver, by Walter de la Mare.  Scans of magazines and found art create the collage-like aesthetic.  Created for a class taught by [Jodie Mack](http://www.jodiemack.com).
 
 ---
 <div class="youtube" id="frozEKhGFVk"></div><br>

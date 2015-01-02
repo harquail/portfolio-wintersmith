@@ -8,7 +8,7 @@ for (var i = 0; i < videos.length; i++) {
   // Create an iFrame with autoplay set to true
   var iframe = document.createElement("iframe");
   iframe.setAttribute("src",
-    "https://www.youtube.com/embed/" + youtube.id + "?autoplay=0&autohide=1&border=0&wmode=opaque&enablejsapi=1");
+    "https://www.youtube.com/embed/" + youtube.id + "?autoplay=0&autohide=1&border=0&wmode=opaque&enablejsapi=1&rel=0");
 
   // The height and width of the iFrame should be the same as parent
   iframe.style.width = "720px";
