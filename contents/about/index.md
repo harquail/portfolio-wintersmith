@@ -22,7 +22,7 @@ In my free time, I play the violin and bask in my alarmingly extensive knowledge
 I built this using the wintersmith engine, which allows me to generate a static website from markdown files and jade templates.  The full source is available on [github](https://github.com/harquail/portfolio-wintersmith).  
   
 Cool stuff used:
-* [Wintersmith](wintersmith.io)
+* [Wintersmith](http://wintersmith.io)
 * [Jade](http://jade-lang.com/)
 * [Markdown](https://markdown.github.io/)
 * [Node.js](http://nodejs.org/)
