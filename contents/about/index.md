@@ -8,9 +8,9 @@ template: about.jade
 #About me
 Hi, I'm Nook (like the [e-reader](http://nook.com)). 
 
-I'm a M.S. student at [Dartmouth College](http://www.dartmouth.edu/), studying Computer Science with a concentration in Digital Arts. 
+I'm a M.S. student at [Dartmouth College](http://www.dartmouth.edu/), studying Computer Science with a concentration in Digital Arts.   I'm currently looking for opportunities after August 2015. 
 
-I'm equally at home in a Linux terminal or a Victorian Novel, but my passion is finding ways to combine the two worlds.  I'm interested in the intersection of art and technology, in creating things that are functional and beautiful.  I'm fascinated by games and systems that create delight.
+I'm equally at home in a Linux terminal or a Victorian Novel, but my passion is finding ways to combine the two worlds.  I'm interested in the intersection of art and technology, in creating things that are functional and beautiful.  I'm fascinated by games and other systems that create delight.
 
 I work at the [DALI Lab](http://dali.dartmouth.edu) — a technology innovation lab at Dartmouth.
 
