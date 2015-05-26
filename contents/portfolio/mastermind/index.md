@@ -12,7 +12,6 @@ A hardware implementation of the game [Mastermind].  Created with Andrew Hoh.
 ---
 
 <div class="youtube" id="0KtRLMpo1gc"></div><br>
-
 <div class="pdfEmbed" id="mastermind_report"></div>
 &nbsp;
 ---

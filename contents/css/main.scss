@@ -543,6 +543,20 @@ code.lang-markdown .bullet {
   color: #8959a8;
 }
 
+/* styling embedded pdfs */
+.pdfEmbed iframe {
+    display:block;
+    width:740px;
+    height:1000px;
+    border:1px dashed;
+}
+
+#page-container {
+  display: none;
+}
+
+
+
 /* media queries */
 
 @media (min-width: 1600px) {
