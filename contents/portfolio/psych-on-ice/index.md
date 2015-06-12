@@ -14,8 +14,8 @@ Visit the live site [here](http://vss.eu1.frbit.net/).
 
 ---
 
-![](login.png)
+[![](login.png)](login.png)
 
-![](home.png)
+[![](home.png)](home.png)
 
 ---
