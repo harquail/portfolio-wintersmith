@@ -1,9 +1,10 @@
 RED=$(printf "\e[31m")
 RESET=$(printf "\e[m")
+#get commit message
 read -e -p "Enter a commit message: " COMMIT
 git add "contents/"
 git commit -am $COMMIT
-
+#push
 git push && find . -type f -name '*~' -delete -print && echo "${RED}removed tilde files\n${RESET}"
 
 # resume regeneration
