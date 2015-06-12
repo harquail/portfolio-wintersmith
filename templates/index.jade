@@ -1,7 +1,7 @@
 extends layout
 block link
     -var selected = 'portfolio'; //default
-    -var tags = env.helpers.getAllTags();
+    -var tags = env.helpers.getAllTags(); tags.sort(); tags.splice(tags.indexOf("other"),1); tags.push("other")
     -var selectedTag = tagName
 block content
   div#main.m-scene

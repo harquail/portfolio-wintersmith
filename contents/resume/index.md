@@ -4,7 +4,7 @@ author: the-wintersmith
 date: 2012-10-01 15:00
 template: resume.jade
 ---
-#Resumé
+<h1>Resume</h1>
 <div class="pdfEmbed" id="resume"></div>
 
 &nbsp;  

@@ -21,6 +21,8 @@ For more information, visit [wordblastoff.com](http://www.wordblastoff.com).
 
 ![](word4.medium.jpg)
 
+[![](word_blastoff_poster.medium.jpg)](word_blastoff_poster.png)
+
 ---
 
 Development and game design by me, marketing and design by [Michelle Khare](http://michellekhare.wix.com/michellekhare).
