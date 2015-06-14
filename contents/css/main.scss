@@ -371,7 +371,18 @@ footer .copy, footer .copy a {
   display: block;
   border-radius: 20px;
   margin-bottom:1em;
-  max-width:700px;
+  max-width:720px;
+}
+
+.article .content .left img{
+  max-width:350px;
+  float:left;
+  margin-right:5px;
+}
+.article .content .right img{
+  max-width:350px;
+  float:right;
+  margin-left:5px;
 }
 
 .more, .date {

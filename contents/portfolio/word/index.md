@@ -13,13 +13,13 @@ For more information, visit [wordblastoff.com](http://www.wordblastoff.com).
 
 <div class ="youtube" id = "I74wKAWd-zE"></div> 
 
-![](word1.medium.jpg)
+![](word1.png)
 
-![](word2.medium.jpg)
+![](word2.png)
 
-![](word3.medium.jpg)
+![](word3.png)
 
-![](word4.medium.jpg)
+![](word4.png)
 
 [![](word_blastoff_poster.medium.jpg)](word_blastoff_poster.png)
 

@@ -12,7 +12,7 @@ Tiltfactor's Metadata Games is a free, open source, game system that augments ac
 
 ---
 
-![Project for Tiltfactor](tilt02.medium.jpg)
+![Project for Tiltfactor](tilt02.png)
 
 ![Project for Tiltfactor](tilt03.medium.jpg)
 

@@ -22,7 +22,7 @@ for i in contents/portfolio/*/*.pdf;
             echo "${RED}generated html for $i \n${RESET}"
         fi
     done
-#should double sizer here
+#should double size here
 mogrify -verbose -format "medium.jpg" -quality 100 -resize 720x800\> contents/portfolio/*/*.png contents/portfolio/*/*.tif ; echo "${RED}generated thumbnails\n${RESET}"
 rm -rf harquail.com && echo "${RED}cleaned\n${RESET}"
 wintersmith build && echo "${RED}built\n${RESET}"
