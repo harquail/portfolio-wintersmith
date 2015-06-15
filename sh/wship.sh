@@ -3,6 +3,7 @@ RESET=$(printf "\e[m")
 #get commit message
 read -e -p "Enter a commit message: " COMMIT
 git add "contents/"
+#commit
 git commit -am $COMMIT
 #push
 git push && find . -type f -name '*~' -delete -print && echo "${RED}removed tilde files\n${RESET}"
