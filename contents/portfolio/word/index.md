@@ -25,4 +25,9 @@ For more information, visit [wordblastoff.com](http://www.wordblastoff.com).
 
 ---
 
+Featured at [CHI Play 2014](https://dl.acm.org/citation.cfm?id=2662970&CFID=684187103&CFTOKEN=85631539).
+
+<div class="pdfEmbed" id="chiplay-abstract"></div>
+---
+
 Development and game design by me, marketing and design by [Michelle Khare](http://michellekhare.wix.com/michellekhare).
