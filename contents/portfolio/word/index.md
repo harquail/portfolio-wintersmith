@@ -31,3 +31,5 @@ Featured at [CHI Play 2014](https://dl.acm.org/citation.cfm?id=2662970&CFID=6841
 ---
 
 Development and game design by me, marketing and design by [Michelle Khare](http://michellekhare.wix.com/michellekhare).
+
+---
