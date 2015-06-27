@@ -1,7 +1,7 @@
 ---
 title: Admissions Videos
 author: nook
-date: 2015-02
+date: 2015-08-24
 template: article.jade
 tags: animation
 ---

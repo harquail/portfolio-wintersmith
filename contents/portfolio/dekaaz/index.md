@@ -1,7 +1,7 @@
 ---
 title: Dekaaz
 author: the-wintersmith
-date: 2013-04-30
+date: 2015-08-01
 template: article.jade
 tags: design, dev, web
 ---

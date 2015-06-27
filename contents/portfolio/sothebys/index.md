@@ -1,7 +1,7 @@
 ---
 title: Sotheby's
 author: nook
-date: 2014-11
+date: 2015-08-25
 template: article.jade
 tags: animation, design 
 ---

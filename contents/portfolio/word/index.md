@@ -1,7 +1,7 @@
 ---
 title: iOS Word Game
 author: the-wintersmith
-date: 2013-04-30
+date: 2015-08-30
 template: article.jade
 tags: iOS, game, design, dev
 ---

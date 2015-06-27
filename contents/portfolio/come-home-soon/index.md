@@ -1,7 +1,7 @@
 ---
 title: Come Home Soon
 author: the-wintersmith
-date: 2013-04-30
+date: 2015-08-19
 template: article.jade
 tags: animation, 3d
 ---

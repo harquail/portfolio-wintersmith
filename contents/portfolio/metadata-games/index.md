@@ -1,7 +1,7 @@
 ---
 title: British Library Tag
 author: the-wintersmith
-date: 2013-04-30
+date: 2015-08-16
 template: article.jade
 tags: game, web, design
 ---

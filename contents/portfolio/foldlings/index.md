@@ -1,7 +1,7 @@
 ---
 title: Foldlings
 author: the-wintersmith
-date: 2015-01
+date: 2015-09
 template: article.jade
 tags: design, dev, iOS
 ---
