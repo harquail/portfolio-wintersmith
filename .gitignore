@@ -1,4 +1,5 @@
 build/
+**/cloudflare-auth.conf
 **/ship.conf
 harquail.com/
 node_modules/
