@@ -164,7 +164,7 @@ body {
   font-family: 'Special Elite', serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #1B1B1B;
+  background-color: #222;
   text-rendering: optimizeLegibility;
 }
 
@@ -398,8 +398,12 @@ footer .copy, footer .copy a {
 #content {
   background-color:#fff;
   width:intrinsic;
-  min-height: 700px;
+  min-height: 800px;
   padding: 7%;
+  background: url(/media/corner2.png);
+  background-size: 100px;
+  background-repeat:no-repeat;
+  background-color:#fff;
   margin:auto;
 /*  padding-bottom: 220px;*/
 
@@ -567,6 +571,44 @@ code.lang-markdown .bullet {
 #page-container {
   display: none;
 }
+
+#mainTypewriter{
+  width:700px;
+  height:600px;
+  position:relative;
+  top:-50px;
+  background: url("/media/typewriter.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
+#mainName{
+  width:500px;
+  height:40px;
+  margin:auto;
+//  background-color:#0fffff;
+  text-align:center;
+  font-size:37px;
+  position:relative;
+  left:7px;
+  top:13px;
+
+}
+
+#mainWords{
+  width:500px;
+  height:100px;
+  margin:auto;
+  color: #666;
+  text-align:center;
+  font-size:30px;
+  position:relative;
+  left:7px;
+  top:21px;
+
+}
+
 
 
 

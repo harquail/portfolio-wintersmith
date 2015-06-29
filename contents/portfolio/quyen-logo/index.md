@@ -12,7 +12,7 @@ Personal logo created for [Quyen Hoang](http://quyenhoangdesign.wix.com/portfoli
 
 ---
 
-To reach the final logo, I interviewed the client several times, creating a mindmap of potential logo ideas, an inspiration board, and several design iterations.
+To reach the final logo, I interviewed the client many times, creating a mindmap of potential logo ideas, an inspiration board, and several design iterations.
 
 [![](nook_quyen_thumbnails_0.jpg)](nook_quyen_thumbnails_0.jpg)
 

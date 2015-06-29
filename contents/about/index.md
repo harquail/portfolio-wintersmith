@@ -5,8 +5,8 @@ date: 2012-10-01 15:00
 template: about.jade
 ---
 
-#About me
-Hi, I'm Nook (like the [e-reader](http://nook.com)). 
+#Hello, World
+I'm Nook (like the [e-reader](http://nook.com)). 
 
 I'm a M.S. student at [Dartmouth College](http://www.dartmouth.edu/), studying Computer Science with a concentration in Digital Arts.   I'm currently looking for opportunities after August 2015. 
 

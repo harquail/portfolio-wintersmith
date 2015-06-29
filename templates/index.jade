@@ -4,6 +4,7 @@ block link
     -var tags = env.helpers.getAllTags(); tags.sort(); tags.splice(tags.indexOf("other"),1); tags.push("other")
     -var selectedTag = tagName
 block content
+  h1= 'Portfolio'
   div#main.m-scene
     span#tag-nav
         if !selectedTag
