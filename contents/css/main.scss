@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   margin-top:10px;
   text-decoration: none;
   background: url("/nav-images/home.png");
+  background-size: 155*2px;
 }
  .nav-button-home:hover, .active .nav-button-home{
 	background-position: -155px 0;
@@ -67,6 +68,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
     margin-top:10px;
   	text-decoration: none;
   	background: url("/nav-images/about.png");
+    background-size: 181*2px;
 }
  .nav-button-about:hover,  .active .nav-button-about{
 	background-position: -181px 0;
@@ -80,6 +82,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
       margin-top: 10px;
     	text-decoration: none;
     	background: url("/nav-images/resume.png");
+      background-size: 202*2px;
 }
 .nav-button-resume:hover, .active .nav-button-resume{
   	background-position: -202px 0;
@@ -93,6 +96,8 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
     margin-top:10px;
   	text-decoration: none;
   	background: url("/nav-images/portfolio.png");
+    background-size: 252*2px;
+    
 }
  .nav-button-portfolio:hover,  .active .nav-button-portfolio{
 	background-position: -252px 0;
@@ -472,6 +477,7 @@ footer .copy, footer .copy a {
 .archive ul li {
   margin: 0;
 }
+
 
 /* code styling */
 
