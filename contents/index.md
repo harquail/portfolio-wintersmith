@@ -28,8 +28,7 @@ template: home.jade
 
 
 <div id="mainTypewriter"><div id="mainName"></div><div id="mainWords"></div></div>
-Connect:
-
+<br/><br/>
 <div id = contactWrapper>
 <span class="contactBox"> [<img src ="/nav-images/e.png"></img> <span class="label">email</span> ](mailto:nook@harquail.com)  </span>
 <span class="contactBox"> [<img src ="/nav-images/f.png"></img> <span class="label">facebook</span> ](http://facebook.com/scribam)  </span>
