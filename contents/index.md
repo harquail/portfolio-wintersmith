@@ -28,8 +28,11 @@ template: home.jade
 
 
 <div id="mainTypewriter"><div id="mainName"></div><div id="mainWords"></div></div>
-Contact me:
-* [email](mailto:nook@harquail.com) 
-* [facebook](http://facebook.com/scribam)
-* [github](http://github.com/harquail)
-* [linkedin](http://www.linkedin.com/in/harquail)
+Connect:
+
+<div id = contactWrapper>
+<span class="contactBox"> [<img src ="/nav-images/e.png"></img> <span class="label">email</span> ](mailto:nook@harquail.com)  </span>
+<span class="contactBox"> [<img src ="/nav-images/f.png"></img> <span class="label">facebook</span> ](http://facebook.com/scribam)  </span>
+<span class="contactBox"> [<img src ="/nav-images/g.png"></img> <span class="label">github</span> ](http://github.com/harquail)  </span>
+<span class="contactBox"> [<img src ="/nav-images/l.png"></img> <span class="label">linkedIn</span> ](http://www.linkedin.com/in/harquail)  </span>
+</div>

@@ -615,6 +615,32 @@ code.lang-markdown .bullet {
 
 }
 
+.contactBox{
+  width:100px;
+  height:100px;
+  text-align:center;
+  vertical-align: bottom;
+  display: Inline-Block;
+}
+
+.contactBox img{
+  width:55px;
+  margin:0px;
+  opacity:0.85;
+  padding:0px;
+}
+
+.contactBox .label{
+  position:relative;
+  top:-10px;
+}
+
+#contactWrapper{
+  margin:auto;
+  left:-50px;
+  text-align:center;
+}
+
 
 
 
