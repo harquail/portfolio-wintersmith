@@ -37,6 +37,7 @@
     "**/*.psd",
     "**/*.ai",
     "**/*indd",
+    "**/*.conf",
     "**/.DS_Store"
   ],
   "output":"harquail.com"
