@@ -19,13 +19,16 @@ gem install sass
 add /contents/wship.conf and /contents/cloudflare-auth.conf
 The format for these files is: 
 ###ship.conf
+<pre>
 s3:
     access_key:
     secret_key:
     ignore:["**/DS_Store"]
-
+</pre<
 ###cloudflare-auth.conf
+<pre>
 defaults:
     token:
     email:
     domain:
+</pre>
