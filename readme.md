@@ -24,7 +24,7 @@ s3:
     access_key:
     secret_key:
     ignore:["**/DS_Store"]
-</pre<
+</pre>
 ###cloudflare-auth.conf
 <pre>
 defaults:
