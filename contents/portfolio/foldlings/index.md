@@ -31,7 +31,14 @@ Full source available here: [https://github.com/harquail/foldlings](https://gith
 <div class=right>![](paper-sketches/012.png)</div>
 <div class=left>![](paper-sketches/013.png)</div>
 
+
 <div class ="pdfEmbed" id="foldings_siggraph_final_abstract"></div>
+
+## Thesis
+
+<div class ="pdfEmbed" id="foldlings_thesis"></div>
+
+You can also download the full thesis [here](foldlings_thesis.pdf).  To cite Foldlings in a academic paper, use this: [link](http://libcat.dartmouth.edu/record=b6221887~S1).
 
 
 ---
