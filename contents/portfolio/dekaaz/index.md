@@ -9,7 +9,7 @@ Dekaaz is a performative poetry form, created by [Rachel Bagby](http://rachelbag
 
 ---
 
-##Mockups
+## Mockups
 [![](thumbs/splash.png)](splash.png)
 [![](thumbs/1.  Mockup_create_v2-N.png)](1.  Mockup_create_v2-N.png)
 [![](thumbs/1. Mockup_create_v2-N-Prompt.png)](1. Mockup_create_v2-N-Prompt.png)
@@ -25,12 +25,12 @@ Dekaaz is a performative poetry form, created by [Rachel Bagby](http://rachelbag
 
 ---
 
-#Feature Specification
+# Feature Specification
 <div class ="pdfEmbed" id="dekaaz-feature-spec"></div>
 
 ---
 
-##Live Site
+## Live Site
 
 Completed site at: [dekaaz.dali.dartmouth.edu](http://dekaaz.dali.dartmouth.edu).  Developed by [Tim Tregubov](http://www.zingweb.com), [Charlotte Blanc](https://twitter.com/charlotteablanc), [Robbie Neuhaus](http://rneuha.us/), and Paul Roberts.
 

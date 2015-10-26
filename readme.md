@@ -8,7 +8,7 @@ Templates for pages are written in jade, and can be found in /templates/
 
 Markdown files for portfolio pages are in contents/portfolio
 
-##Building
+## Building
 npm install wintersmith -g
 npm install wintersmith-autoprefixer-sass -g 
 npm install ship -g
@@ -18,14 +18,14 @@ gem install sass
 
 add /contents/wship.conf and /contents/cloudflare-auth.conf
 The format for these files is: 
-###ship.conf
+### ship.conf
 <pre>
 s3:
     access_key:
     secret_key:
     ignore:["**/DS_Store"]
 </pre>
-###cloudflare-auth.conf
+### cloudflare-auth.conf
 <pre>
 defaults:
     token:

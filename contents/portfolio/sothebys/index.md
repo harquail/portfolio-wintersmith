@@ -13,7 +13,7 @@ An animated logo, created for Sotheby's Four Seasons.  We followed their brandin
 
 Created using Illustrator and AfterEffects.
 
-#Process and Iterations
+# Process and Iterations
 <div class="youtube" id="d0PRMGqPkiQ"></div><br>
 <div class="youtube" id="vlymGDHfGio"></div><br>
 <div class="youtube" id="ydrL8QquXzI"></div><br>
