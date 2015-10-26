@@ -14,6 +14,9 @@ tags: design, dev, iOS
 
 Full source available here: [https://github.com/harquail/foldlings](https://github.com/harquail/foldlings)
 
+
+You can download the full thesis [here](foldlings_thesis.pdf).  To cite Foldlings in a academic paper, use this [link](http://libcat.dartmouth.edu/record=b6221887~S1).
+
 ---
 
 ## Initial Mockups
@@ -34,9 +37,6 @@ Full source available here: [https://github.com/harquail/foldlings](https://gith
 
 <div class ="pdfEmbed" id="foldings_siggraph_final_abstract"></div>
 
-<br/>
-
-You can download the full thesis [here](foldlings_thesis.pdf).  To cite Foldlings in a academic paper, use this [link](http://libcat.dartmouth.edu/record=b6221887~S1).
 
 
 ---
