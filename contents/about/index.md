@@ -11,7 +11,7 @@ I'm Nook (like the [e-reader](http://nook.com)).
 
 I'm equally at home in a Linux terminal or a Victorian Novel, but my passion is finding ways to combine the two worlds.  I'm interested in the intersection of art and technology, in creating things that are functional and beautiful.  I'm fascinated by games and other systems that create delight.
 
-I work at [Viacom Lab](http://www.viacomlab.com/) in a user-centered team that builds apps and experiences to explore the future of media and entertainment.  
+I work at [Viacom Lab](http://www.viacomlab.com/), in a user-centered team that makes products & experiences to explore the future of media and entertainment.  
 
 Previously, I was at [Dartmouth College](http://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish the [DALI Lab](http://dali.dartmouth.edu) — a technology innovation lab at Dartmouth.
 

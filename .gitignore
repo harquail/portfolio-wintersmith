@@ -1,7 +1,9 @@
 build/
 **/cloudflare-auth.conf
 **/ship.conf
+aws-credentials.json
 harquail.com/
 node_modules/
 .DS_Store
 .sass-cache/
+aws-credentials.json
