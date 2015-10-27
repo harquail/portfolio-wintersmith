@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   	text-decoration: none;
   	background: url("/nav-images/portfolio.png");
     background-size: 252*2px;
-    
+
 }
  .nav-button-portfolio:hover,  .active .nav-button-portfolio{
 	background-position: -252px 0;
@@ -173,7 +173,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.content-wrap {  
+.content-wrap {
   width: 34em;
   margin: 0 auto;
 }
@@ -646,56 +646,55 @@ code.lang-markdown .bullet {
 
 /* media queries */
 
-@media (min-width: 1600px) {
-  body { font-size: 26px; }
-}
+// @media (min-width: 1600px) {
+  // body { font-size: 26px; }
+// }
 
-@media (max-width: 900px) {
-  body { font-size: 18px; }
-}
+// @media (max-width: 900px) {
+  // body { font-size: 18px; }
+// }
 
-@media (max-width: 690px) {
-  .content-wrap {
-    width: auto;
-    padding: 0 1em;
-  }
-  .header {
-    margin: 1em 0;
-  }
-  .header h1 {
-    font-size: 1.4em;
-    margin-bottom: 0.6em;
-  }
-  .header .description {
-    font-size: 1em;
-  }
-  .article {
-    margin: 1em 0 2.5em;
-  }
-  .archive {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .archive * {
-    float: none !important;
-    line-height: 1.6 !important;
-    width: auto !important;
-    height: auto !important;
-    text-align: left !important;
-    border: 0 !important;
-    margin: 0 !important;
-  }
-  footer .nav {
-    margin: 1em 0;
-  }
-  footer .about {
-    padding: 0;
-    font-size: 0.9em;
-    padding-top: 1.6em;
-    column-count: 1;
-  }
-  footer .about p {
-    margin-bottom: 1em;
-  }
-}
-
+// @media (max-width: 690px) {
+//   .content-wrap {
+//     width: auto;
+//     padding: 0 1em;
+//   }
+//   .header {
+//     margin: 1em 0;
+//   }
+//   .header h1 {
+//     font-size: 1.4em;
+//     margin-bottom: 0.6em;
+//   }
+//   .header .description {
+//     font-size: 1em;
+//   }
+//   .article {
+//     margin: 1em 0 2.5em;
+//   }
+//   .archive {
+//     width: 80%;
+//     margin: 0 auto;
+//   }
+//   .archive * {
+//     float: none !important;
+//     line-height: 1.6 !important;
+//     width: auto !important;
+//     height: auto !important;
+//     text-align: left !important;
+//     border: 0 !important;
+//     margin: 0 !important;
+//   }
+//   footer .nav {
+//     margin: 1em 0;
+//   }
+//   footer .about {
+//     padding: 0;
+//     font-size: 0.9em;
+//     padding-top: 1.6em;
+//     column-count: 1;
+//   }
+//   footer .about p {
+//     margin-bottom: 1em;
+//   }
+// }
