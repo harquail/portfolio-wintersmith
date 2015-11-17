@@ -51,13 +51,11 @@ Videos created with Field (best with sound).
 
 <div class="vine" id="iBEgV6hxzt7"></div>
 
-<div class="vine" id="iBEDbFnrZP7"></div>
-
 <div class="vine" id="iBEDud3JjLY"></div>
 
 <div class="vine" id="iBEwiF1IOmI"></div>
 
-
+</br>
 See more fields [here](https://vine.co/u/1278073875980595200).
 
 <script src="/js/vineEmbed.js"></script> 
