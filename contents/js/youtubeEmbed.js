@@ -1,6 +1,5 @@
 // Find all the YouTube video embedded on a page
 var videos = document.getElementsByClassName("youtube");
-console.log('reachedYoutube');
 
 for (var i = 0; i < videos.length; i++) {
   var youtube = videos[i];
