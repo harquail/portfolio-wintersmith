@@ -25,31 +25,30 @@ A
 ## Prototype
 
 
-Describe prototype.
+Describe prototype. Video of prototype
 
 ---
 
 ## Insights
 
-
-Describe insights
+Describe insights 
 
 ---
 
 ## Algorithm
 
-
 Describe algorithm
 
 Pictures that describe algorithm
 
-## Results
 
-Videos created with Field (best with sound).
+## Creations
 
-<div class="vine" id="iBE6xqJiKm3"></div>
+Videos created with Field (click bottom right for sound).
 
 <div class="vine" id="iBEgV6hxzt7"></div>
+
+<div class="vine" id="iBE6xqJiKm3"></div>
 
 <div class="vine" id="iBEDud3JjLY"></div>
 
