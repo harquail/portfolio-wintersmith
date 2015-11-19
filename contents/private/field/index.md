@@ -37,9 +37,24 @@ Describe insights
 
 ## Algorithm
 
-Describe algorithm
+Capture audio signal
+![](audio2-01.png)
+Filter signal
+![](audio2-02.png)
+Detect peaks
+![](audio2-03.png)
+Find loud and quiet regions
+![](audio2-04.png)
+Combine peaks + loud regions to find sample regions 
+![](audio2-05.png)
 
-Pictures that describe algorithm
+Randomly sample from within sample regions, choosing short clips that are either within the loud regions or aligned with peaks
+
+Finally, layer the samples in beat patterns, randomly selecting from a set of manually-curated rhythms designed to combine musically.  	
+![](field-grid.png)
+
+Play back layered audio and video.
+
 
 
 ## Creations
