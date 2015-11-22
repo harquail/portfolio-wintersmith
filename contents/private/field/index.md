@@ -18,44 +18,43 @@ How might we help amateurs create vine-length music videos?
 
 ## UX Design
 
-A
+Mockups of potential interfaces for Field.
+
+<div class="youtube" id="q71sacBK4tw"></div> 
+
+<div class="youtube" id="bA5DT0MCVYQ"></div>
 
 ---
 
 ## Prototype
 
+Prototype iOS app created through ~3 weeks of iteration in Swift.
 
-Describe prototype. Video of prototype
-
----
-
-## Insights
-
-Describe insights 
+<div class="youtube" id="ahCct0sYLa4"></div> 
 
 ---
 
 ## Algorithm
 
-Capture audio signal
+Capture audio signal:
 ![](audio2-01.png)
-Filter signal
+Filter signal:
 ![](audio2-02.png)
-Detect peaks
+Detect peaks:
 ![](audio2-03.png)
-Find loud and quiet regions
+Find loud and quiet regions:
 ![](audio2-04.png)
-Combine peaks + loud regions to find sample regions 
+Combine peaks + loud regions to find sample regions: 
 ![](audio2-05.png)
 
-Randomly sample from within sample regions, choosing short clips that are either within the loud regions or aligned with peaks
+Randomly sample from within sample regions, choosing short clips that are either within the loud regions or aligned with peaks.
 
-Finally, layer the samples in beat patterns, randomly selecting from a set of manually-curated rhythms designed to combine musically.  	
+Finally, layer the samples in beat patterns, randomly selecting from a set of manually-curated rhythms designed to combine musically:  	
 ![](field-grid.png)
 
-Play back layered audio and video.
+Play layered audio and video.
 
-
+---
 
 ## Creations
 
