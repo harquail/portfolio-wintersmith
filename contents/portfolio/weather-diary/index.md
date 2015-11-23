@@ -1,5 +1,5 @@
 ---
-title: Weather Diary
+title: Rainy Day Diary
 author: the-wintersmith
 date: 2015-09
 template: article.jade
@@ -35,8 +35,7 @@ Built using [Parse](https://parse.com/) as the backend, with [SKPolygraph](https
 
 ## Process
 
-<div class="pdfEmbed" id="viacomweatherdiaryideaboard"></div>
-
+<iframe src="https://docs.google.com/document/d/1R4WE40586ynr41iTVG7p6yBNsqi1Ps8kk2ycUj7HQiQ/pub?embedded=true" width="710" height="1500"></iframe>
 
 ---
 
