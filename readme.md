@@ -18,12 +18,13 @@ gem install sass
 
 add /contents/wship.conf and /contents/cloudflare-auth.conf
 The format for these files is: 
-### ship.conf
+### aws-credentials.json
 <pre>
-s3:
-    access_key:
-    secret_key:
-    ignore:["**/DS_Store"]
+{ 
+    "accessKeyId": "PUBLIC_KEY", 
+    "secretAccessKey": "SECRET_KEY", 
+    "region": "us-west-2" 
+}
 </pre>
 ### cloudflare-auth.conf
 <pre>
