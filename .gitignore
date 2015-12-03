@@ -6,4 +6,3 @@ harquail.com/
 node_modules/
 .DS_Store
 .sass-cache/
-aws-credentials.json
