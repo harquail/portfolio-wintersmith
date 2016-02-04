@@ -22,7 +22,7 @@ I used [Realm](https://realm.io/) to persist counter data, including positions. 
 
 <div class="youtube" id="3j6ggXrnIUM"></div>
  
-Presents a list of places near the user using the Places API.
+Presents a list of places near the user using the Google Places API.
 Shows preview images of places in-line, and loads more results when reaching the end of the list.
 
 Cocoapods used:
