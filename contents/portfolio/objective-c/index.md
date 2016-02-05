@@ -30,7 +30,6 @@ Cocoapods used:
 - GoogleKit (DanielyBotelho's branch): wrapper for Google Places API; makes it easier to fetch places and place photos 
 - SDWebImage: asyncronously load images
 
-
 Full source available [here](https://github.com/harquail/nearby-places).
 
 ---
