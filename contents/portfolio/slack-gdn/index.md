@@ -6,7 +6,7 @@ template: article.jade
 tags: dev, web
 ---
 
-A [Slack](https://slack.com/) integration (slash command) for [The Guardian](http://www.theguardian.com/)'s content API.  Remembers recently-posted articles, so it does not repeat itself.
+A [Slack](https://slack.com/) integration (slash command) for [The Guardian](http://www.theguardian.com/)'s content API.  Remembers recently-posted articles, so it does not repeat itself.  Source code on [github](https://github.com/harquail/slack-gdn).
 
  <div class="youtube" id="bBdAoHpn1MU"></div>
  
