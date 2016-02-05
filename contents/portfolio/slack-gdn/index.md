@@ -16,11 +16,11 @@ A [Slack](https://slack.com/) integration (slash command) for [The Guardian](htt
 
 /gdn [search term] [optionally, number of articles]
 
-Run using node.js — requires setting GUARDIAN_KEY to a [Guardian API key](http://open-platform.theguardian.com/access/).  Information on adding commands to Slack [here](https://api.slack.com/slash-commands).
+Run using node.js — requires setting "GUARDIAN_KEY" to a [Guardian API key](http://open-platform.theguardian.com/access/) in environment variables.
 
 Helpful button to deploy:
-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harquail/slack-gdn)
+Information on adding commands to Slack [here](https://api.slack.com/slash-commands).
 
 ## Limitations
 
