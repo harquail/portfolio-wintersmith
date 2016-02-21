@@ -9,8 +9,8 @@ git commit -am "$COMMIT"
 git push && find . -type f -name '*~' -delete -print && echo "${RED}removed tilde files\n${RESET}"
 
 # resume regeneration
-if [ ! -f contents/resume/resume.pdf.html ]; then
-    pdftohtmljs contents/resume/resume.pdf contents/resume/resume.pdf.html ipad
+if [ ! -f contents/resume/harquail_resume.pdf.html ]; then
+    pdftohtmljs contents/resume/harquail_resume.pdf contents/resume/harquail_resume.pdf.html ipad
     echo "${RED}generated html for resume \n${RESET}"
 fi
 
