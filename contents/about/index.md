@@ -8,11 +8,11 @@ template: about.jade
 # Hello, World
 I'm Nook (like the [e-reader](http://nook.com)).
 
-I strive to make things that are functional and beautiful, exploring the intersections of technology, product, and design.  I'm fascinated by games and other systems that create delight.
+I like to make things at the intersection of technology, product, and design.  I'm fascinated by games and other systems that create delight.
 
-Most recently, I worked at [Viacom Lab](http://www.viacomlab.com/), in a user-centered team that created products & experiences to explore the future of media.  
+I work on [Yieldmo's](http://yieldmo.com/) iOS [SDK](https://github.com/yieldmo/yieldmo-ios-sdk), which strives to make mobile advertising elegant and user-friendly.
 
-Before that, I was at [Dartmouth College](http://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish the [DALI Lab](http://dali.dartmouth.edu) — a technology innovation lab at Dartmouth.
+Previously, I was at [Viacom Lab](http://www.viacomlab.com/), in a user-centered team that created products & experiences to explore the future of media.  Before that, I was at [Dartmouth College](http://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish the [DALI Lab](http://dali.dartmouth.edu) — a technology innovation lab at Dartmouth.
 
 In my free time, I play the violin and bask in my alarmingly extensive knowledge of the Harry Potter universe.  I'm annoyed by Android fragmentation and the death of the subjunctive.
 
