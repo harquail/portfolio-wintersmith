@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/nook
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://harquail.com
+  * I am nook (https://keybase.io/nook) on keybase.
+  * I have a public key with fingerprint 7BBF 302B FA8C 8F11 6460  4E98 491F EF74 AFF8 0F02
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b072852ec2fd8bb6bcc6685fa82bb4c4e1a729a684f1f05f6ac3120230ab85750a",
+            "fingerprint": "7bbf302bfa8c8f1164604e98491fef74aff80f02",
+            "host": "keybase.io",
+            "key_id": "491fef74aff80f02",
+            "kid": "0101b072852ec2fd8bb6bcc6685fa82bb4c4e1a729a684f1f05f6ac3120230ab85750a",
+            "uid": "397d460b0d90e5d7ea3d455cfa8a9f19",
+            "username": "nook"
+        },
+        "service": {
+            "hostname": "harquail.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472177647,
+    "expire_in": 157680000,
+    "prev": "3201a2684ec11e5c3d324dcb160d1f7e55f22477b40242237baf0113c1efd94a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUm1QFVUYvlxBPlI+RqAoBN0JxhkQdvfu7tmFGUPLEm3IAezGxHA5u3sWN+Du
+/YLk6w9ChoxxQdQiGkDHClEUEAZKYK6ZGoZTXPqAIAaoBm2u1gwxGMK0y9i/fnb+
+nDnv+zzPeZ53XufmDboAr9Toh47Ly0F6rzv3eJ1x+PxSGcYrYgmWVIblo/ULFYjI
+7jDlyyKWhOEETvA4IFmaRAIpiSzPM7wgMAxLS5AleZ4SKERAQHKQYSmJkHBaYqBg
+IEicNOCQZ2lA4xCLxyTZnIdsFptsdqiygOclA07yqobASgTBUAxOIY6lOEJCEqCg
+JLG4hJMq8bBi1xiqOR7aUYKsqDX1YVq39x/4/9l30bqcgQOiapHHRQ5HtAgQNIgU
+TQuqFuQkgtOAdmQzw0Kkos2Kko9VxGNqpVgWkDZULcWT7mFosxZBuSBBUApVnsWm
+OBRBKdA6DoclSSM6Siwa8m3Em55omHjZLKojVAnFyGaXFTOWRKhIwSFrogQFSAIA
+hgLxGDpikW3IJGsIGjAsrh7tG1SsBSFxApJqZCQQGQSiBYNoIClR4AkGFwkJIJqW
+SJICgKdwkiJJA+ChhBOEQSCQJHKUNhI7spoVLIlSfcI8VdMu55mho8iGsIqAGn2k
+t84rQLfRR68tly7AP/jfjSs9FPTYvy5g96Ud/XN3M67vsV6oNORE3ZgL2wvW/t58
+159KzJZPdo3+Gb3cWTAJj9b4NTwzN/TaeB3KqH+qZcyS8W7pzfxJ764vv6s+9hKV
+62Ne6Zi+FnOy5uOxTxerkme2NC31gtOeXRH7WV98oG2+7kZIX7kv86jl2BfG7pCD
+EcKq9Xxu64cNum+ao2Y+Xw1ZqVhbjNT/VLt0f6X1oftW5Dt7x7e7y+wpp4cuuUJL
+fwgfCcz28270nFho7HzBNZgz8ZVrIqzF6AMSz55q3O2O83LjgVZr1cKrnu2XPT3U
+xc6bxOj7ptnQ2i2LOaMbN3nSdnZdPTUbtW+XRQr2DSRXXZnft1UVXy2v3WD5bPjB
+1PGRUGpcvjcOpJetfT2py3HTKb0TydNngPOPC1lvXC/vSwlPu22fwaC7esdSW4X5
+Tkyz76Lt9qP6+ay+ry8O5X+Q6mrLaZ0/wTx4kW3yGA8MPp2Sdn/lN89z3JUD8v6g
+bOPYVEnyL7G3srYmr46+93xl7E6Xc2vCj9sGzvgdSfyk3Z39bVpvQpSuvz8z3Wcg
+XT9VvYb5bjsa11No0h8/5K5cTQ8boYdfGew9WHcuU3kWemdzib/3nqsaNf7a3tEU
+3D4ek3ul37lvVvzr2nLnz0BcsG2KCH+9481o5/Jb5EdBZ2O77QQHmy0xj0tjO0ty
+YbfcsMcSXT+Z9Q8=
+=qCa6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nook
+
+==================================================================
