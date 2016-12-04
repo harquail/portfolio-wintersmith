@@ -14,7 +14,7 @@ template: home.jade
         showCursor: false
       });
       $("#mainWords").typed({
-        strings: ["iOS Developer","Designer", "Digital Artist","Web Developer","Animator","Game Designer","Maker"],
+        strings: ["iOS Developer","Designer", "Digital Artist","Web Developer","Maker"],
         typeSpeed: 50,
         backDelay: 1000,
         backSpeed:10,

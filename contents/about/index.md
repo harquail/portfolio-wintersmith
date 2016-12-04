@@ -16,6 +16,11 @@ In my free time, I play the violin and bask in my alarmingly extensive knowledge
 
 [\#INFJ](http://en.wikipedia.org/wiki/INFJ) [\#Gemini](http://en.wikipedia.org/wiki/Gemini_%28astrology%29) [\#Ravenclaw](http://harrypotter.wikia.com/wiki/Ravenclaw)
 
+# Contact
+I do not respond to personal emails about job opportunities — send those [here](/tellmemore) instead.  
+
+For everything else, feel free to send a [message](mailto:nook@harquail.com).
+
 # About this Site
 I built this using the wintersmith engine, which allows me to generate a static website from markdown files and jade templates.  The full source is available on [Github](https://github.com/harquail/portfolio-wintersmith).  
 
