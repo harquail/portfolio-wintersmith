@@ -6,7 +6,7 @@ template: article.jade
 tags: animation, design 
 ---
 
-An animated logo, created for Sotheby's Four Seasons.  We followed their branding guide and iterated based on feedback.  Animation by me and [Marissa Allen](www.cs.dartmouth.edu/~mallen/).
+An animated logo, created for Sotheby's Four Seasons.  We followed their branding guide and iterated based on feedback.  Animation by me and [Marissa Allen](http://marissaallen.space).
 
 ---
 <div class="youtube" id="v0djhjbeOOE"></div><br>

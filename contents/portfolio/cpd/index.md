@@ -7,7 +7,7 @@ tags: design, animation
 
 ---
 
-An animation for Dartmouth's [Center for Professional Development](http://www.dartmouth.edu/~csrc/).  I was the lead animator on this project, with assistant animation by [Marissa Allen](www.cs.dartmouth.edu/~mallen/) and audio recording by [Jake Gaba](https://www.youtube.com/user/devonkoch).
+An animation for Dartmouth's [Center for Professional Development](http://www.dartmouth.edu/~csrc/).  I was the lead animator on this project, with assistant animation by [Marissa Allen](http://marissaallen.space) and audio recording by [Jake Gaba](https://www.youtube.com/user/devonkoch).
 
 ---
 
