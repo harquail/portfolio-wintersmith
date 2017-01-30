@@ -19,7 +19,7 @@ In my free time, I play the violin and bask in my alarmingly extensive knowledge
 # Contact
 I do not respond to personal emails about job opportunities — send those [here](/tellmemore) instead.  
 
-For everything else, feel free to send a [message](mailto:nook@harquail.com).
+For everything else, feel free to send a [message](mailto:nook@harquail.com).  You can encrypt your message using my [public key](/public-key.txt).
 
 # About this Site
 I built this using the wintersmith engine, which allows me to generate a static website from markdown files and jade templates.  The full source is available on [Github](https://github.com/harquail/portfolio-wintersmith).  

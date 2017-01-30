@@ -31,7 +31,7 @@ template: home.jade
 <br/><br/>
 <div id = contactWrapper>
 <span class="contactBox"> [<img src ="/nav-images/e.png"></img> <span class="label">email</span> ](mailto:nook@harquail.com)  </span>
-<span class="contactBox"> [<img src ="/nav-images/f.png"></img> <span class="label">facebook</span> ](http://facebook.com/scribam)  </span>
-<span class="contactBox"> [<img src ="/nav-images/g.png"></img> <span class="label">github</span> ](http://github.com/harquail)  </span>
-<span class="contactBox"> [<img src ="/nav-images/l.png"></img> <span class="label">linkedIn</span> ](http://www.linkedin.com/in/harquail)  </span>
+<span class="contactBox"> [<img src ="/nav-images/k.png"></img> <span class="label">keybase</span> ](https://keybase.io/nook)  </span>
+<span class="contactBox"> [<img src ="/nav-images/g.png"></img> <span class="label">github</span> ](https://github.com/harquail)  </span>
+<span class="contactBox"> [<img src ="/nav-images/l.png"></img> <span class="label">linkedIn</span> ](https://www.linkedin.com/in/harquail)  </span>
 </div>
