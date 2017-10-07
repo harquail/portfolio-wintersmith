@@ -6,7 +6,7 @@ template: article.jade
 tags: iOS, dev, design
 ---
 
-We built an app to showcase Yieldmo's v4.0 [iOS SDK](/portfolio/yieldmo-ios-sdk/). 
+We built an app to showcase Yieldmo's v4.0 [iOS SDK](/portfolio/ym-ios-sdk/). 
 
 Available in the App Store and on Github soon.
 

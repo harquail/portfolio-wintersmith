@@ -7,8 +7,8 @@
   },
   "plugins": [
     "./plugins/paginator.coffee",
-    "wintersmith-livereload",
     "wintersmith-tag",
+    "wintersmith-livereload",
     "wintersmith-autoprefixer-sass"
   ],
   "require": {
@@ -29,7 +29,7 @@
     "first": "/portfolio/index.html",
     "filename": "portfolio/%d/index.html"
   },
-  "tag":{
+  "tag": {
     "filename": "/portfolio/%s/%d/index.html"
   },
   "ignore": [
@@ -40,5 +40,5 @@
     "**/*.conf",
     "**/.DS_Store"
   ],
-  "output":"harquail.com"
+  "output": "harquail.com"
 }
