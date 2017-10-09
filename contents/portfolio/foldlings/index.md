@@ -3,7 +3,7 @@ title: Foldlings
 author: the-wintersmith
 date: 2015-09
 template: article.jade
-tags: design, dev, iOS
+tags: design, dev, iOS, writing
 ---
 
  My current project is an iPad app for designing popup cards – with the goal of making the process easier and more fun.  Foldlings allows users to define a sketch of a pop-up in 2D and preview a simulation of their design in 3D, assisting the user in the exploratory process of creating pop-ups.  Designs are fabricated by hand or using a laser cutter.  Designed and developed with [Marissa Allen](http://marissaallen.space) as our Masters thesis in Computer Science, advised by [Emily Whiting](http://www.cs.dartmouth.edu/~emily/).  Initial prototype created with [Marissa Allen](http://marissaallen.space) and [Tim Tregubov](http://www.zingweb.com/).  
