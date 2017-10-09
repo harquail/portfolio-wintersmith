@@ -6,9 +6,9 @@ template: article.jade
 tags: web, dev
 ---
 
-Faced with overwhelming technical debt, Yieldmo decided to completely re-write our existing Javascript codebase in Typescript.  I was the team lead for this project, responsible for estimation, architecture, and development.  After 6 months of effort, we were able to release the new code across all of our publishers with no major incidents.
+Faced with overwhelming technical debt, Yieldmo decided to completely re-write our existing Javascript codebase in Typescript.  I was the team lead for this project, responsible for estimation, architecture, and development.  After six months of effort, we were able to release the new code across all of our publishers with no major incidents.
 
-As a result of the new code, we were able to achieve a 10% reduction in time to first request to our ad server (resulting in significant revenue increases).  Webpack and other build-system improvements reduce build times by 81% below our legacy codebase.  Roughly 90% of lines are covered by unit tests, and clear modules and documentation drastically reduce effort for fixing bugs and adding features.
+As a result of the new code, we were able to achieve a 10% reduction in time to first request to our ad server (resulting in significant revenue increases).  [Webpack](https://webpack.github.io/) and other build system improvements reduce build times by 81% below our legacy codebase.  Roughly 90% of lines are covered by unit tests, and clear modules and documentation drastically reduce effort for fixing bugs and adding features.
 
 ---
 
