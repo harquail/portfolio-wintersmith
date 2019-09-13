@@ -10,7 +10,7 @@ I'm Nook (like the [e-reader](http://nook.com)).
 
 I like to make things at the intersection of technology, product, and design. I work on [Etsy's](https://etsy.com) search experience in apps.
 
-Previously, I built Yieldmo's [Yieldmo's](https://yieldmo.com/) advertising platform for [mobile web](https://github.com/yieldmo/yieldmo-js-sdk/wiki). I also worked at [Viacom Lab](http://www.viacomlab.com/) on products & experiences to explore the future of media.
+Previously, I built [Yieldmo's](https://yieldmo.com/) advertising platform for [mobile web](https://github.com/yieldmo/yieldmo-js-sdk/wiki). I also worked at [Viacom Lab](http://www.viacomlab.com/) on products & experiences to explore the future of media.
 
 My education was at [Dartmouth College](https://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish [DALI](http://dali.dartmouth.edu) — a technology innovation lab.
 
