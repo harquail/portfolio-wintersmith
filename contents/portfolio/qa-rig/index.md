@@ -6,7 +6,7 @@ template: article.jade
 tags: web, dev
 ---
 
-Although it started as a simple tool to generate a test page, this grew into a full tool for developing and testing our ad products. The QA infrastructure can change the source the main components of our front-end product (for example, using a locally-built ad server or ad template).
+Although it started as a simple tool to generate a test page, this grew into a full tool for developing and testing our ad products. The QA infrastructure can change the main components of our front-end product (for example, use a locally-built ad server or ad template).
 
 - 1) The main page generates a page with url parameters from available options
 - 2) When our Javascript loads, it reads these parameters to override behavior
