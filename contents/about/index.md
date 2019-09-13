@@ -8,13 +8,15 @@ template: about.jade
 # Hello, World
 I'm Nook (like the [e-reader](http://nook.com)).
 
-I like to make things at the intersection of technology, product, and design.  I work on [Yieldmo's](http://yieldmo.com/) [mobile web](https://github.com/yieldmo/yieldmo-js-sdk/wiki) platforms.  We strive to make mobile advertising elegant and user-friendly.
+I like to make things at the intersection of technology, product, and design. I work on [Etsy's](https://etsy.com) search experience in apps.
 
-Previously, I was at [Viacom Lab](http://www.viacomlab.com/), in a user-centered team that created products & experiences to explore the future of media.  Before that, I was at [Dartmouth College](http://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish [DALI](http://dali.dartmouth.edu) — a technology innovation lab.
+Previously, I built Yieldmo's [Yieldmo's](https://yieldmo.com/) advertising platform for [mobile web](https://github.com/yieldmo/yieldmo-js-sdk/wiki). I also worked at [Viacom Lab](http://www.viacomlab.com/) on products & experiences to explore the future of media.
+
+My education was at [Dartmouth College](https://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish [DALI](http://dali.dartmouth.edu) — a technology innovation lab.
 
 In my free time, I play the violin and bask in my alarmingly extensive knowledge of the Harry Potter universe.  I'm annoyed by pop-up ads and the death of the subjunctive.
 
-[\#INFJ](http://en.wikipedia.org/wiki/INFJ) [\#Ravenclaw](http://harrypotter.wikia.com/wiki/Ravenclaw)
+[\#INFJ](https://en.wikipedia.org/wiki/INFJ) [\#Ravenclaw](https://harrypotter.wikia.com/wiki/Ravenclaw)
 
 # Contact
 I do not respond to personal emails about job opportunities — send those [here](/tellmemore) instead.  
