@@ -8,7 +8,7 @@ tags: web, dev
 
 [Yieldmo](https://yieldmo.com) processes as large number of events (8+ billion events each day). We built a new system to process this event data from the client to our data warehouse. 
 
-As we added new events and traffic, we were running up against the limits of the existing system, which used Kafka event streams. Custom-built Java servers consumed the data and loaded it into our data warehouse in Protobuf format. Although this system was reliable, it was difficult to add new events (multiple teams needed to modify the schema) — and because servers were deployed manually, spikes in event traffic led to significant lag. Data was least accessible when we needed it the most (during spikes in errors or traffic).
+As we added new events and traffic, we were running up against the limits of the existing system, which used Kafka event streams. Custom-built web servers consumed the data and loaded it into our data warehouse in Protobuf format via cron jobs running in [EC2](https://aws.amazon.com/ec2/) instances. Although this system was reliable, it was difficult to add new events (multiple teams needed to modify the schema) — and because servers were deployed manually, spikes in event traffic led to significant lag. Data was least accessible when we needed it the most (during spikes in errors or traffic).
 
 Goals for the new system:
 - 1) Easy to add new events with varied schemas
