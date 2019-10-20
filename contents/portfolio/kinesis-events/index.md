@@ -16,7 +16,7 @@ Goals for the new system:
 
 ---
 
-We built the new event processing system on Amazon Web Services, using [kinesis](https://aws.amazon.com/kinesis/) to ingest data and serverless functions ([lambdas](https://aws.amazon.com/lambda/)) to process it. Kinesis is a streaming service that plays a similar role to Apache Kafka. [This](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html) is a good overview of the system. One thing to note is that Kinesis operates based on 'shards'. For each set of records, the client sends a key, which in our case is a random identifier for the page view. Based on a hash of this value, kinesis stores the record in a shard that consumers can read from.  
+We built the new event processing system on Amazon Web Services, using [kinesis](https://aws.amazon.com/kinesis/) to ingest data and serverless functions ([lambdas](https://aws.amazon.com/lambda/)) to process it. Kinesis is a streaming service that plays a similar role to Apache Kafka. [This](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html) is a good overview of the system. One thing to note is that Kinesis operates based on 'shards'. For each set of records, the client sends a key, which in our case is a random identifier for the page view. Based on a hash of this value, kinesis stores the record in a shard that consumers can read from.
 
 Our system's flow is: 
  - 1) Client puts many events with arbitrary structure into Kinesis
@@ -40,7 +40,7 @@ Three lambda functions form the core of the system:
 - 3) *eventSplitter*
 	- For every file created by *fileCombiner*, creates a file for each type (defined by a field in the event object). Again, these files are stored in S3 within a directory structure that separates them by event type and then date.
 
-Between each step in the lambda pipeline, we keep data in S3 for a period of time. This is useful for testing, and allows us to recover from any errors easily within the TTL. The last step in the pipeline is [Snowpipe](https://docs.snowflake.net/manuals/user-guide/data-load-snowpipe-intro.html), which loads the data into [Snowflake](https://www.snowflake.com/). For each file type created by the *eventSplitter*,  we define a schema definition that creates a table in Snowflake. 
+Between each step in the lambda pipeline, we keep data in S3 for a period of time. This is useful for testing, and allows us to recover from any errors easily within the TTL. The last step in the pipeline is [Snowpipe](https://docs.snowflake.net/manuals/user-guide/data-load-snowpipe-intro.html), which loads the data into [Snowflake](https://www.snowflake.com/). For each file type created by the *eventSplitter*, we define a schema definition that creates a table in Snowflake. 
 
 Additional jobs operate in snowflake to create aggregations from the events, and remove duplicate data (this architecture guarantees [at least once](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/) delivery).
 
@@ -48,20 +48,20 @@ Additional jobs operate in snowflake to create aggregations from the events, and
 
 ## Scaling
 
-In scaling to processing billions of events per day, we found that our bottleneck was *fileCombiner*. The *eventFilter* lambda scales automatically as we add new shards, with an instance of the lambda reading constantly from each shard. *eventSplitter* is similarly scalable, because functions run in parallel as files are created by the combiner. *fileCombiner*, however, ran in series. We had defined the lambda to run a schedule using a *Cloudwatch* timer, with a new lambda invocation running each minute. As we scaled to write more files from *eventFilter*, the previous invocation of the lambda was not always finishing before the next invocation began. This resulted in duplicated work because the same data was processed twice. To resolve this issue, we added *combinerDispatch*. 
+In scaling to process billions of events per day, we found that our bottleneck was *fileCombiner*. The *eventFilter* lambda scales automatically as we add new shards, with an instance of the lambda reading constantly from each shard. *eventSplitter* is similarly scalable, because functions run in parallel as files are created by the combiner. *fileCombiner*, however, ran in series. We had defined the lambda to run a schedule using a [CloudWatch timer](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html), with a new lambda invocation running each minute. As wrote more and more files from *eventFilter*, the previous invocation of the lambda was not always finishing before the next invocation began. This resulted in duplicated work because the same data was processed twice. To resolve this issue, we added *combinerDispatch*.
 
 Rather than downloading the full files, *combinerDispatch* gets the list of files the have not been processed in S3. It uses this information (including file sizes) to invoke instances of the *fileCombiner* lambda with a list of files that can be processed within a minute. This allows the combination step to happen in parallel.
 
-The next bottleneck will likely be S3 bucket read/write limits, which are fairly easy to manage. We could change the architecture to use a separate bucket for each Kinesis shard and/or duplicate the infrastructure in each region where we have significant traffic.  
+The next bottleneck will likely be S3 bucket read/write limits, which are fairly easy to manage. We could change the architecture to use a separate bucket for each Kinesis shard and/or duplicate the infrastructure in each region where we have significant traffic. 
 
-Overall, the system can be scaled up an down simply by changing the number of shards in the Kinesis stream.
+Overall, the system can be scaled up and down simply by changing the number of shards in the Kinesis stream.
 
 ---
 ## Resilience and Data Quality
 
 Any lambda may fail at any point, leaving data in a half-processed state. Luckily, the lambda architecture is very resilient to failures, because it will re-invoke the lambda with the same records if it does not return success. So, as long as we write the lambdas to throw errors rather than fail silently, we do not lose data if a single instance fails. 
 
-As with any data pipeline, data quality is an important issue for us. Because Yieldmo ads run a large variety of mobile devices and browser, we often see unexpected data. We have developed manual and automated systems to review these abnormalities and fix the majority of them in the Snowpipe schema definition. Most of our problems were a mismatch between the data sent by the client and the schema's expectation.  Sometimes, it makes sense for us to set a default value, or set a valid range of values in addition to the data type.
+As with any data pipeline, data quality is an important issue for us. Because Yieldmo ads run a large variety of mobile devices and browser, we often see unexpected data. We have developed manual and automated systems to review these abnormalities and fix the majority of them in the Snowpipe schema definition. Most of our problems were a mismatch between the data sent by the client and the schema's expectation. Sometimes, it makes sense for us to set a default value, or set a valid range of values in addition to the data type.
 
 ---
 ## Monitoring
