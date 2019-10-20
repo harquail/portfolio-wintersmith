@@ -40,7 +40,7 @@ Three lambda functions form the core of the system:
 - 3) *eventSplitter*
 	- For every file created by *fileCombiner*, creates a file for each type (defined by a field in the event object). Again, these files are stored in S3 within a directory structure that separates them by event type and then date.
 
-Between each step in the lambda pipeline, we keep data in S3 for a period of time. This is useful for testing, and allows us to recover from any errors easily within the TTL. The last step in the pipeline is Snowpipe, which loads the data into Snowflake. For each file type created by the *eventSplitter*,  we define a schema definition that creates a table in Snowflake. 
+Between each step in the lambda pipeline, we keep data in S3 for a period of time. This is useful for testing, and allows us to recover from any errors easily within the TTL. The last step in the pipeline is [Snowpipe](https://docs.snowflake.net/manuals/user-guide/data-load-snowpipe-intro.html), which loads the data into [Snowflake](https://www.snowflake.com/). For each file type created by the *eventSplitter*,  we define a schema definition that creates a table in Snowflake. 
 
 Additional jobs operate in snowflake to create aggregations from the events, and remove duplicate data (this architecture guarantees [at least once](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/) delivery).
 
