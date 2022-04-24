@@ -30,7 +30,5 @@ mogrify -verbose -format "medium.jpg" -quality 100 -resize 720x800\> contents/po
 rm -rf harquail.com && echo "${RED}cleaned\n${RESET}"
 wintersmith build && echo "${RED}built\n${RESET}"
 cd harquail.com && s3-upload && echo "${RED}uploaded.\n${RESET}"
-# ship harquail.com -to s3 &&
-
 
 cd .. && cfcli -c contents/cloudflare-auth.conf purgecache && echo "${RED}shipped.\n${RESET}"
