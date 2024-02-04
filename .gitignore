@@ -2,6 +2,7 @@ build/
 **/cloudflare-auth.conf
 **/ship.conf
 aws-credentials.json
+cloudflare-api-credentials.txt
 harquail.com/
 node_modules/
 .DS_Store

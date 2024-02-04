@@ -28,10 +28,5 @@ The format for these files is:
     "region": "us-west-2" 
 }
 </pre>
-### cloudflare-auth.conf
-<pre>
-defaults:
-    token:
-    email:
-    domain:
-</pre>
+### cloudflare-api-credentials.txt
+API key

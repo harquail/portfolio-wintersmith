@@ -1,5 +1,6 @@
 RED=$(printf "\e[31m")
 RESET=$(printf "\e[m")
+CLOUDFLARE_KEY=$(awk '{print $1}' ./cloudflare-api-credentials.txt) 
 echo "run with nvm use 6"
 #get commit message
 read -e -p "Enter a commit message: " COMMIT
@@ -29,6 +30,6 @@ for i in contents/portfolio/*/*.pdf;
 mogrify -verbose -format jpg -quality 100 -resize 720x800\> contents/portfolio/*/*.png; echo "${RED}generated thumbnails\n${RESET}"
 rm -rf harquail.com && echo "${RED}cleaned\n${RESET}"
 wintersmith build && echo "${RED}built\n${RESET}"
-cd harquail.com && s3-upload && echo "${RED}uploaded.\n${RESET}"
-# cd .. && cfcli -c contents/cloudflare-auth.conf purgecache 
+cd harquail.com && s3-upload && echo "${RED}uploaded.\n${RESET}" &&
+curl -X POST "https://api.cloudflare.com/client/v4/zones/3a71dfadfdc0354a1615dc2e0e084285/purge_cache" -H "Authorization: Bearer $CLOUDFLARE_KEY" --data '{"purge_everything":true}'
 echo "${RED}shipped.\n${RESET}"
