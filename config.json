@@ -8,7 +8,8 @@
   "plugins": [
     "./plugins/paginator.coffee",
     "wintersmith-tag",
-    "wintersmith-autoprefixer-sass"
+    "wintersmith-autoprefixer-sass",
+    "wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",

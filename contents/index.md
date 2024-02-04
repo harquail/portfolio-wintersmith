@@ -14,7 +14,7 @@ template: home.pug
         showCursor: false
       });
       $("#mainWords").typed({
-        strings: ["Software Engineer","Designer", "Digital Artist", "Web Developer", "iOS Developer", "Team Lead"],
+        strings: ["Software Engineer","Architect", "Digital Artist", "Web Developer", "iOS Developer", "Team Lead"],
         typeSpeed: 50,
         backDelay: 1000,
         backSpeed:10,
