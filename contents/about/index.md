@@ -1,20 +1,20 @@
 ---
 title: About Me
 author: the-wintersmith
-date: 2012-10-01 15:00
-template: about.jade
+date: 2024-02-01 15:00
+template: about.pug
 ---
 
 # Hello, World
 I'm Nook (like the [e-reader](http://nook.com)).
 
-I like to make things at the intersection of technology, product, and design. I work on [Etsy's](https://etsy.com) search experience in apps.
+I like to make things at the intersection of technology, product, and design. I work on [Etsy's](https://etsy.com) backend API — building new features and helping other engineers succeed.
 
 Previously, I built [Yieldmo's](https://yieldmo.com/) advertising platform for [mobile web](https://github.com/yieldmo/yieldmo-js-sdk/wiki). I also worked at [Viacom Lab](http://www.viacomlab.com/) on products & experiences to explore the future of media.
 
 My education was at [Dartmouth College](https://www.dartmouth.edu/), where I earned an M.S. in Computer Science with a Concentration in Digital Arts, and helped establish [DALI](http://dali.dartmouth.edu) — a technology innovation lab.
 
-In my free time, I play the violin and bask in my alarmingly extensive knowledge of the Harry Potter universe.  I'm annoyed by pop-up ads and the death of the subjunctive.
+In my free time, I play the violin and read sci-fi + fantasy novels. I'm annoyed by pop-up ads and the death of the subjunctive.
 
 [\#INFJ](https://en.wikipedia.org/wiki/INFJ) [\#Ravenclaw](https://harrypotter.wikia.com/wiki/Ravenclaw)
 
@@ -28,7 +28,7 @@ I built this using the wintersmith engine, which allows me to generate a static 
 
 Cool stuff used:
 * [Wintersmith](http://wintersmith.io)
-* [Jade (aka Pug)](http://jade-lang.com/)
+* [Pug](https://pugjs.org/)
 * [Markdown](https://markdown.github.io/)
 * [Node.js](http://nodejs.org/)
 * [Sass](http://sass-lang.com/)

@@ -2,7 +2,7 @@
 title: Hiring Manifesto (Yieldmo)
 author: the-wintersmith
 date: 2019-05-01
-template: article.jade
+template: article.pug
 tags: writing
 ---
 

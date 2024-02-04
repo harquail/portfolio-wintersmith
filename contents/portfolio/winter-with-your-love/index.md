@@ -2,7 +2,7 @@
 title: Winter with Your Love
 author: the-wintersmith
 date: 2015-08-29
-template: article.jade
+template: article.pug
 tags: animation
 ---
 

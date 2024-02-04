@@ -2,7 +2,7 @@
 title: Slack Chimp
 author: the-wintersmith
 date: 2014-01-30
-template: article.jade
+template: article.pug
 tags: dev
 ---
 A simple application written in Node.js to control a MailChimp list through [Slack](http://www.slack.com) (adding and deleting subscribers, notifications for spontaneous subscriptions & unsubscriptions).  Source available here: https://github.com/dali-lab/slack-mailchimp-add/.

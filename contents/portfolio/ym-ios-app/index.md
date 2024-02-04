@@ -2,7 +2,7 @@
 title: Yieldmo App
 author: the-wintersmith
 date: 2016-7
-template: article.jade
+template: article.pug
 tags: iOS, dev, design
 ---
 

@@ -2,7 +2,7 @@
 title: DALI Animation
 author: nook
 date: 2014-12
-template: article.jade
+template: article.pug
 tags: design, animation
 ---
 

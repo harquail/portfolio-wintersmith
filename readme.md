@@ -9,6 +9,7 @@ Templates for pages are written in jade, and can be found in /templates/
 Markdown files for portfolio pages are in contents/portfolio
 
 ## Building
+nvm use 8
 npm install wintersmith -g
 npm install wintersmith-autoprefixer-sass -g 
 npm install ship -g

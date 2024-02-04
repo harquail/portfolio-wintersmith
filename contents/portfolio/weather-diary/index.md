@@ -2,7 +2,7 @@
 title: Rainy Day Diary
 author: the-wintersmith
 date: 2015-09
-template: article.jade
+template: article.pug
 tags: design, dev, iOS
 ---
 

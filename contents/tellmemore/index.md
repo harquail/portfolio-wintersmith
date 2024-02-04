@@ -2,7 +2,7 @@
 title: README
 author: the-wintersmith
 date: 2013-04-30
-template: home.jade
+template: home.pug
 ---
 
 <head>

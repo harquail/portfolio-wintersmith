@@ -2,7 +2,7 @@
 title: Happiness
 author: the-wintersmith
 date: 2014-04-18
-template: article.jade
+template: article.pug
 tags: writing
 ---
 

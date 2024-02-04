@@ -2,7 +2,7 @@
 title: README
 author: the-wintersmith
 date: 2013-04-30
-template: home.jade
+template: home.pug
 ---
 <script src="js/typed.js"></script>
 
@@ -30,8 +30,8 @@ template: home.jade
 <div id="mainTypewriter"><div id="mainName"></div><div id="mainWords"></div></div>
 <br/><br/>
 <div id = contactWrapper>
-<span class="contactBox"> [<img src ="/nav-images/e.png"></img> <span class="label">email</span> ](mailto:nook@harquail.com)  </span>
-<span class="contactBox"> [<img src ="/nav-images/k.png"></img> <span class="label">keybase</span> ](https://keybase.io/nook)  </span>
-<span class="contactBox"> [<img src ="/nav-images/g.png"></img> <span class="label">github</span> ](https://github.com/harquail)  </span>
-<span class="contactBox"> [<img src ="/nav-images/l.png"></img> <span class="label">linkedIn</span> ](https://www.linkedin.com/in/harquail)  </span>
-</div>
+<a href="mailto:nook@harquail.com"><span class="contactBox"><img src ="/nav-images/e.png"></img> <span class="label">email</span></span></a>
+<a href="https://keybase.io/nook"><span class="contactBox"><img src ="/nav-images/k.png"></img> <span class="label">keybase</span></span></a>
+<a href="https://github.com/harquail"><span class="contactBox"><img src ="/nav-images/g.png"></img> <span class="label">github</span> </span></a>
+<a href="https://www.linkedin.com/in/harquail"><span class="contactBox"><img src ="/nav-images/l.png"></img> <span class="label">linkedIn</span></span>
+</div></a>

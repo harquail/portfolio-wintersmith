@@ -8,7 +8,6 @@
   "plugins": [
     "./plugins/paginator.coffee",
     "wintersmith-tag",
-    "wintersmith-livereload",
     "wintersmith-autoprefixer-sass"
   ],
   "require": {

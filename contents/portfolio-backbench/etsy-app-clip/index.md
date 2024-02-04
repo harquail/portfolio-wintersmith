@@ -1,8 +1,8 @@
 ---
-title: Kinesis Events (Yieldmo)
+title: Etsy App Clip
 author: the-wintersmith
 date: 2019-08-01
-template: article.jade
+template: article.pug
 tags: web, dev
 ---
 

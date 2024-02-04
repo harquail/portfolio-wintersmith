@@ -2,7 +2,7 @@
 title: Genio Fitness
 author: the-wintersmith
 date: 2016-2
-template: article.jade
+template: article.pug
 tags: iOS, dev
 ---
 

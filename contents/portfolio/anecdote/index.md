@@ -2,7 +2,7 @@
 title: Anecdote of the Jar
 author: nook
 date: 2013-06
-template: article.jade
+template: article.pug
 tags: animation
 ---
 
