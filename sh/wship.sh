@@ -26,7 +26,7 @@ for i in contents/portfolio/*/*.pdf;
     done
 
 #should double size here
-mogrify -verbose -format "medium.jpg" -quality 100 -resize 720x800\> contents/portfolio/*/*.png ; echo "${RED}generated thumbnails\n${RESET}"
+mogrify -verbose -format jpg -quality 100 -resize 720x800\> contents/portfolio/*/*.png; echo "${RED}generated thumbnails\n${RESET}"
 rm -rf harquail.com && echo "${RED}cleaned\n${RESET}"
 wintersmith build && echo "${RED}built\n${RESET}"
 cd harquail.com && s3-upload && echo "${RED}uploaded.\n${RESET}"

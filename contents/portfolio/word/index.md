@@ -21,7 +21,7 @@ For more information, visit [wordblastoff.com](http://www.wordblastoff.com).
 
 ![](word4.png)
 
-[![](word_blastoff_poster.medium.jpg)](word_blastoff_poster.png)
+[![](word_blastoff_poster.jpg)](word_blastoff_poster.png)
 
 ---
 

@@ -14,19 +14,19 @@ Tiltfactor's Metadata Games is a free, open source, game system that augments ac
 
 ![Project for Tiltfactor](tilt02.png)
 
-![Project for Tiltfactor](tilt03.medium.jpg)
+![Project for Tiltfactor](tilt03.jpg)
 
-![Project for Tiltfactor](tilt05.medium.jpg)
+![Project for Tiltfactor](tilt05.jpg)
 
-![Project for Tiltfactor](tilt06.medium.jpg)
+![Project for Tiltfactor](tilt06.jpg)
 
-![Project for Tiltfactor](tilt07.medium.jpg)
+![Project for Tiltfactor](tilt07.jpg)
 
-![Project for Tiltfactor](tilt04.medium.jpg)
+![Project for Tiltfactor](tilt04.jpg)
 
-![Project for Tiltfactor](tilt08.medium.jpg)
+![Project for Tiltfactor](tilt08.jpg)
 
-![Project for Tiltfactor](tilt01.medium.jpg)
+![Project for Tiltfactor](tilt01.jpg)
 
 Designed with [Winnie Yoe](http://winnieyoe.com/)
 
