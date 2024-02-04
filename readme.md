@@ -10,6 +10,7 @@ Markdown files for portfolio pages are in contents/portfolio
 
 ## Building
 nvm use 8
+<!-- brew install imagemagick -->
 npm install wintersmith -g
 npm install wintersmith-autoprefixer-sass -g 
 npm install ship -g
