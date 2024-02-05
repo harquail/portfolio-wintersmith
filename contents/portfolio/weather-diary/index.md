@@ -12,7 +12,7 @@ This iOS protototype was created over a weekend as an application to [Viacom Lab
 
 ## Problem Statement
 
-"Design a new diary+weather app that lets you write a short blurb about what happened today and how you felt. Each entry will have weather recorded, too. When you first join the service, you will not have any content, but overtime, itâ€™ll grow as you use the service.
+"Design a new diary+weather app that lets you write a short blurb about what happened today and how you felt. Each entry will have weather recorded, too. When you first join the service, you will not have any content, but overtime, it'€™ll grow as you use the service.
 
 Design and implement iOS key screens for this mobile app, and please share your prototype, thoughts, styles, and approach. The formats and "deliverables" -- we will leave that up to you to decide, based on the amount of time you can put in the next few days.
 
