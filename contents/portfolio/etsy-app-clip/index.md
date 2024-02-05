@@ -12,7 +12,7 @@ Apple approached [Etsy](https://www.etsy.com/) to be one of the launch partners 
 
 In 9 months, we built a subset of the Etsy app that allows a buyer to view a product, read reviews, preview the size of some items in AR, and purchase the item.
 
-This was a challenging project due to the complexity of features we needed to build and the short timeline. The majority of these features existed in the full Etsy app, but due to constraints on the size of the app binary (10MB) we needed to rebuild many of the features from scratch. We also built guest checkout, which is not available in the full Etsy app so that App Clip users could make a purchases without registering for an account. If a user installs the full app later, we transfer context so that the guest purchases are associated with their new account. 
+This was a challenging project due to the complexity of features we needed to build and the short timeline. The majority of these features existed in the full Etsy app, but due to constraints on the size of the app binary (10MB) we needed to rebuild many of the features from scratch. We also built guest checkout (not available in the full Etsy app) so that App Clip users can make a purchases without registering for an account. If a user installs the full app later, we transfer context so that the guest purchases are associated with their new account. 
 
 ---
 
