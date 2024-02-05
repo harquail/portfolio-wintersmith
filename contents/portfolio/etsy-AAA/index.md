@@ -25,4 +25,4 @@ At each open meeting, we read this statement about the group's purpose:
 
 [![](orangedoc_flow.jpg)](orangedoc_flow.png)
 
-Flowchart of common paths for proposals (click to enlarge)
+I created a flowchart of common paths for proposals (click to enlarge)
