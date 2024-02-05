@@ -8,7 +8,7 @@ tags: other, dev
 
 At [Etsy](https://www.etsy.com/) I helped establish the App Architecture Advisors group (AAA). The AAA is a rotating panel of engineers that help shepherd engineers through Etsy's internal  [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) process and advocate for their ideas. Every two weeks we hold a public office hours meeting to discuss proposals. This group was modeled on an existing architecture group that exists for all of Etsy engineering, but ours is focused on the apps (iOS and Android apps for both buyers and sellers).
  
-People have brought proposals on wide-ranging topics -- anything that affects multiple teams is fair game.
+People have brought proposals on wide-ranging topics --ï¿½anything that affects multiple teams is fair game.
 
 ---
 
@@ -23,6 +23,6 @@ At each open meeting, we read this statement about the group's purpose:
 
 ---
 
+[![](orangedoc_flow.jpg)](orangedoc_flow.png)
 
-
-Flowchart of common paths for proposals
+Flowchart of common paths for proposals (click to enlarge)
