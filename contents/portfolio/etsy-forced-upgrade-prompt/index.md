@@ -18,7 +18,7 @@ This project removed a huge cognitive overhead for product development by allowi
 
 ---
 
-  <object data= 
+<object data= 
 "./limited_lifespan.pdf#toolbar=0&navpanes=0&scrollbar=0" 
                 width="700"
                 height="1000"> 
