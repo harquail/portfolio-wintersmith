@@ -18,7 +18,7 @@ This project removed a huge cognitive overhead for product development by allowi
 
 ---
 
-<div class="pdfEmbed" id="Orange_Doc_ Limited lifespan_for_BOE_versions"></div>
+<div class="pdfEmbed" id="Orange_Doc_Limited lifespan_for_BOE_versions"></div>
 
 I removed some details from this proposal for this portfolio.
 
