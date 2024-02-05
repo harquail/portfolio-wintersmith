@@ -1,5 +1,5 @@
 ---
-title: Etsy Upgrade Prompt
+title: Upgrade Prompt (Etsy)
 author: the-wintersmith
 date: 2022-05-01
 template: article.pug
