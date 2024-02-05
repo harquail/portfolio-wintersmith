@@ -6,7 +6,7 @@ template: article.pug
 tags: web, dev
 ---
 
-!(Hero image)[hero_image.png]
+(Hero image)[hero_image.png]
 
 Apple approached (Etsy)[https://www.etsy.com/] to be one of the launch partners for the (App Clip)[https://developer.apple.com/app-clips/] feature. App clips are a small version of an app that can be launched from a link without installing the full app.  
 
@@ -20,7 +20,7 @@ My role on this project was backend engineering + architecture. We built new API
 
 In order to deliver against the fixed deadline, we continuously estimated our timelines against goals and continuously updated a GANTT chart to track our progress. The project delivered on time with only minor changes to feature requirements.
 
-[![Gantt Chart showing project timeline](gantt.jpg)](gantt.png)
+[![Gantt Chart showing project timeline](gantt.png)](gantt.png)
 
 Etsy's App Clip was featured in various [media](https://www.wired.co.uk/article/apple-app-clips) [articles](https://www.macstories.net/stories/app-clips-in-ios-14-the-right-app-at-the-right-time/) and in Apple's launch of the app clip feature at [WWDC 2020](https://developer.apple.com/videos/play/wwdc2020/10174/). The success of the project was measured by order numbers and installations of the full Etsy app. 
 
