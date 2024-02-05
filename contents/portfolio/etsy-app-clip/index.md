@@ -8,7 +8,7 @@ tags: web, dev
 
 (Hero image)[hero_image.png]
 
-Apple approached (Etsy)[https://www.etsy.com/] to be one of the launch partners for the (App Clip)[https://developer.apple.com/app-clips/] feature. App clips are a small version of an app that can be launched from a link without installing the full app.  
+Apple approached [Etsy](https://www.etsy.com/) to be one of the launch partners for the [App Clip](https://developer.apple.com/app-clips/) feature. App clips are a small version of an app that can be launched from a link without installing the full app.  
 
 In 9 months, we built a subset of the Etsy app that allows a buyer to view a product, read reviews, preview the size of some items in AR, and purchase the item.
 
