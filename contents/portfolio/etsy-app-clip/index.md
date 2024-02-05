@@ -6,7 +6,7 @@ template: article.pug
 tags: web, dev
 ---
 
-[Hero image](hero_image.png)
+![Hero image](hero_image.png)
 
 Apple approached [Etsy](https://www.etsy.com/) to be one of the launch partners for the [App Clip](https://developer.apple.com/app-clips/) feature. App clips are a small version of an app that can be launched from a link without installing the full app.  
 
