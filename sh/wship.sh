@@ -21,6 +21,7 @@ for i in contents/portfolio/*/*.pdf;
     do
 # if the file doesn't exist
         if [ ! -f $i.html ]; then
+            echo "${RED}generating html for $i \n${RESET}"
             pdftohtmljs $i $i.html ipad
             echo "${RED}generated html for $i \n${RESET}"
         fi

@@ -15,7 +15,7 @@ npm install wintersmith -g
 npm install wintersmith-autoprefixer-sass -g 
 npm install ship -g
 npm install -g pdftohtmljs
-brew install pdf2htmlEX
+sudo port install pdf2htmlex
 gem install sass
 
 add /contents/wship.conf and /contents/cloudflare-auth.conf

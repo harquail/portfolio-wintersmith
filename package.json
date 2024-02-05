@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "moment": "2.3.x",
+    "mupdf-js": "^1.1.1",
     "typogr": "0.5.x",
     "underscore": "1.4.x",
     "wintersmith": "^2.1.0",
