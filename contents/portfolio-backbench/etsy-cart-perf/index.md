@@ -1,5 +1,5 @@
 ---
-title: Etsy App Clip
+title: Cart Performance (Etsy)
 author: the-wintersmith
 date: 2019-08-01
 template: article.pug
