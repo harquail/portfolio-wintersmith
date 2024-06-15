@@ -2,7 +2,7 @@
 title: Field
 author: the-wintersmith
 date: 2015-10
-template: article.pug
+template: article.jade
 tags: design, dev, iOS
 ---
 

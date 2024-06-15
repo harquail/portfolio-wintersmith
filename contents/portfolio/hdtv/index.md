@@ -2,7 +2,7 @@
 title: HDTV
 author: nook
 date: 2012-01
-template: article.pug
+template: article.jade
 tags: animation
 ---
 

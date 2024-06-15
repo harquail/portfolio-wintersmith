@@ -2,7 +2,7 @@
 title: Typescript SDK (Yieldmo)
 author: the-wintersmith
 date: 2017-09-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

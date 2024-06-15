@@ -2,7 +2,7 @@
 title: Guardian Slack
 author: the-wintersmith
 date: 2015-11
-template: article.pug
+template: article.jade
 tags: dev, web
 ---
 

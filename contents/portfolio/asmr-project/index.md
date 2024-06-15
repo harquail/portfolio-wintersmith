@@ -2,7 +2,7 @@
 title: ASMR
 author: the-wintersmith
 date: 2015-03-01
-template: article.pug
+template: article.jade
 tags: writing, dev
 ---
 

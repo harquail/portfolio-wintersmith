@@ -2,7 +2,7 @@
 title: British Library Tag
 author: the-wintersmith
 date: 2015-08-16
-template: article.pug
+template: article.jade
 tags: game, web, design
 ---
 

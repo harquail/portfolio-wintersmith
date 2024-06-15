@@ -2,7 +2,7 @@
 title: Augmented Reality (Etsy)
 author: the-wintersmith
 date: 2020-05-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

@@ -2,7 +2,7 @@
 title: Genetics
 author: the-wintersmith
 date: 2014-04
-template: article.pug
+template: article.jade
 tags: design, animation
 ---
 Kinetic typography of Genetics, by Tom Milsom.  Music used with the permission of DFTBA records.  Other assets created by me, or from public domain sources — including illustrations from Henry Gray's [Anatomy of the Human Body](http://www.bartleby.com/107/indexillus.html).  

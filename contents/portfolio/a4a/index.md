@@ -2,7 +2,7 @@
 title: AMP for ads (Yieldmo)
 author: the-wintersmith
 date: 2017-08-30
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

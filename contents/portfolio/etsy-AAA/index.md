@@ -2,7 +2,7 @@
 title: AAA (Etsy)
 author: the-wintersmith
 date: 2020-01-01
-template: article.pug
+template: article.jade
 tags: other, dev
 ---
 

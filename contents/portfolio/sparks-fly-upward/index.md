@@ -2,7 +2,7 @@
 title: Sparks Fly Upward
 author: the-wintersmith
 date: 2013-04-30
-template: article.pug
+template: article.jade
 tags: animation, design
 ---
 

@@ -2,7 +2,7 @@
 title: Kitten Posters
 author: nook
 date: 2015-08-20
-template: article.pug
+template: article.jade
 tags: design
 ---
 

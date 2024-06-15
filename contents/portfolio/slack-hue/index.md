@@ -2,7 +2,7 @@
 title: Slack Hue
 author: the-wintersmith
 date: 2014-01-30
-template: article.pug
+template: article.jade
 tags: dev
 ---
 

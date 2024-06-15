@@ -2,7 +2,7 @@
 title: Uncrustifier for Xcode
 author: the-wintersmith
 date: 2016-8
-template: article.pug
+template: article.jade
 tags: iOS, dev
 ---
 

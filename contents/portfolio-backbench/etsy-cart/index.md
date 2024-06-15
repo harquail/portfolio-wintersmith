@@ -2,7 +2,7 @@
 title: Cart (Etsy)
 author: the-wintersmith
 date: 2019-08-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

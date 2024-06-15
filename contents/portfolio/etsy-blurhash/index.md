@@ -2,7 +2,7 @@
 title: Blurhash (Etsy)
 author: the-wintersmith
 date: 2019-10-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

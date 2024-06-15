@@ -2,7 +2,7 @@
 title: Yieldmo iOS SDK
 author: the-wintersmith
 date: 2016-6
-template: article.pug
+template: article.jade
 tags: iOS, dev
 ---
 

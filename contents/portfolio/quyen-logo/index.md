@@ -2,7 +2,7 @@
 title: Quyen Personal Logo
 author: the-wintersmith
 date: 2015-08-13
-template: article.pug
+template: article.jade
 tags: design
 ---
 

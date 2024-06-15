@@ -2,7 +2,7 @@
 title: Found Poem
 author: the-wintersmith
 date: 2013-04-30
-template: article.pug
+template: article.jade
 tags: writing
 ---
 Poetry constructed by surgically copying text from other works.

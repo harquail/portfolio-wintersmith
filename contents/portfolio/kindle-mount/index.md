@@ -2,7 +2,7 @@
 title: Kindle Mount
 author: the-wintersmith
 date: 2015-08-28
-template: article.pug
+template: article.jade
 tags: design, 3d
 ---
 

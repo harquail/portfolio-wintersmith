@@ -2,7 +2,7 @@
 title: Objective-C Samples
 author: the-wintersmith
 date: 2015-09
-template: article.pug
+template: article.jade
 tags: dev, iOS
 ---
 

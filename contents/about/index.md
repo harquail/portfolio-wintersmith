@@ -2,7 +2,7 @@
 title: About Me
 author: the-wintersmith
 date: 2024-02-01 15:00
-template: about.pug
+template: about.jade
 ---
 
 # Hello, World

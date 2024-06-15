@@ -2,7 +2,7 @@
 title: Good Morning Sunshine
 author: nook
 date: 2013-06
-template: article.pug
+template: article.jade
 tags: animation
 ---
 

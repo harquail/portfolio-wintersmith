@@ -2,7 +2,7 @@
 title: Dekaaz
 author: the-wintersmith
 date: 2015-08-01
-template: article.pug
+template: article.jade
 tags: design, dev, web
 ---
 Dekaaz is a performative poetry form, created by [Rachel Bagby](http://rachelbagby.com/about-contact/).   Dekaaz is similar to the Haiku, although it is based on syllable pattern rather than rhyme. We based the UI design on the [Flat UI](https://designmodo.github.io/Flat-UI/) framework, for rapid development.  Designed with [Hannah Williams](https://www.linkedin.com/in/hannahgwilliams14).  I also worked with the developers to refine design during development.

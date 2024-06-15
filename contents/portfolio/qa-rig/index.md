@@ -2,7 +2,7 @@
 title: QA Rig (Yieldmo)
 author: the-wintersmith
 date: 2019-04-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

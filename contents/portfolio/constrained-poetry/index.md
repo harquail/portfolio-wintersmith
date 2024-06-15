@@ -2,7 +2,7 @@
 title: TCT CTA GGT... 
 author: the-wintersmith
 date: 2013-04-30
-template: article.pug
+template: article.jade
 tags: writing
 ---
 

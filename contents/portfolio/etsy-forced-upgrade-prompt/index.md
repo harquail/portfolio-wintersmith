@@ -2,7 +2,7 @@
 title: Upgrade Prompt (Etsy)
 author: the-wintersmith
 date: 2022-05-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 

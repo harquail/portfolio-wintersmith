@@ -2,7 +2,7 @@
 title: App Clip (Etsy)
 author: the-wintersmith
 date: 2020-08-01
-template: article.pug
+template: article.jade
 tags: web, dev
 ---
 
